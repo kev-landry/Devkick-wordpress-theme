@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.8.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-09-30 09:59:58+0000\n"
+"PO-Revision-Date: 2017-10-03 08:16:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5600,7 +5600,7 @@ msgstr "Vous pouvez modifier votre mot de passe, activer les raccourcis clavier,
 
 #: wp-admin/widgets.php:100
 msgid "This sidebar is no longer available and does not show anywhere on your site. Remove each of the widgets below to fully remove this inactive sidebar."
-msgstr "Cette barre latérale n&rsquo;est plus disponible, et ne s&rsquo;affiche nulle part sur le site. Vous pouvez en retirer les widgets ci-dessous afin de la supprimer totalement."
+msgstr "Cette colonne latérale n’est plus disponible, et ne s’affiche nulle part sur le site. Vous pouvez en retirer les widgets ci-dessous afin de la supprimer totalement."
 
 #: wp-admin/widgets.php:97
 msgid "Inactive Sidebar (not used)"
