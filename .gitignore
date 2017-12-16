@@ -1,75 +1,15 @@
-# Packages #
-############
-*.7z
-*.dmg
-*.gz
-*.bz2
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.tgz
-*.map
-
-# Logs and databases #
-######################
-*.log
-*.sql
-
-# OS generated files #
-######################
-**.DS_Store*
-ehthumbs.db
-Icon?
-Thumbs.db
-._*
-
-# Vim generated files #
-######################
-*.un~
-
-# SASS #
-##########
-**/.sass-cache
-**/.sass-cache/*
-**/.map
-
-# Composer #
-##########
-vendors/composer/
-!assets/js/vendor/
-wpcs/
-composer.lock
-
-# Bower #
-##########
-assets/bower_components/*
-
-# Codekit #
-##########
-/codekit-config.json
-*.codekit
-**.codekit-cache/*
-
-# NPM #
-##########
-node_modules
-
-# Compiled Files and Build Dirs #
-##########
-/README.html
-/build/
-
-# PhpStrom Project Files #
-.idea/
-library/vendors/composer
-assets/img/.DS_Store
-assets/sass/HTML
-assets/sass/Rails
-HTML
-Rails
-../uploads
 wp-content/uploads/
 wp-content/uploads
 wp-content/uploads/2017/12
+wp-config.php
+wp-content/uploads
+wp-content/plugins
+wp-content/cache
+wp-content/w3tc-config/
+wp-content/advanced-cache.php
+wp-config-sample.php
+.sass-cache
+node_modules
+.DS_Store
+src/scss/.sass-cache
+package-lock.json
