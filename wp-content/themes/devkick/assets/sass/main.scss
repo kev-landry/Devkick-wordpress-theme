@@ -1,0 +1,50 @@
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Nunito', 'Open Sans', 'Roboto', sans-serif;
+    background-color: #f6f6f7;
+    font-size: 16px;
+}
+a {
+  color: white;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+header {
+    background-color: #282b36;
+}
+.topbar a:visited {
+    color: #f7f5f5;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.topbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.topbar a {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    flex-direction: column;
+}
+/* .topbar a:hover {
+    background-color: rgba(0, 0, 0,0.5);
+} */
+.topbar a:hover {
+    background-color: rgba(0, 0, 0,0.3);
+    border-bottom: 3px solid #5eeda3;
+    color: #5eeda3;
+}
+.topbar a:hover span {
+  color: white;
+}

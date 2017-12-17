@@ -1,0 +1,11 @@
+body,html{padding:0;margin:0}
+body{font-family:'Nunito','Open Sans','Roboto',sans-serif;background-color:#f6f6f7;font-size:16px}
+a{color:white}
+a:link,a:visited{text-decoration:none}
+header{background-color:#282b36}
+.topbar a:visited{color:#f7f5f5}
+.nav-container{max-width:1200px;margin:0 auto}
+.topbar{display:-ms-grid;display:grid;-ms-grid-columns:1fr 1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr 1fr}
+.topbar a{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:80px;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;font-size:1.1rem;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}
+.topbar a:hover{background-color:rgba(0,0,0,0.3);border-bottom:3px solid #5eeda3;color:#5eeda3}
+.topbar a:hover span{color:white}

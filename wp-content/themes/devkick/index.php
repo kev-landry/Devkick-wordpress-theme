@@ -13,32 +13,26 @@
 
 <body>
     <header> <!-- Menu barre top -->
-        <nav class="">
-            <a class="" href="#">Accueil</a>
-            <button class="" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class=""></span>
-            </button>
-            <!-- <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
-                <form class="form-inline mt-2 mt-md-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div> -->
-        </nav>
+        <div class="nav-container">
+            <nav class="topbar">
+                <a class="" href="#">
+                <i class="fas fa-home"></i>
+                <span>Accueil</span>
+                </a>
+                <a class="" href="#">
+                <i class="fas fa-desktop"></i>
+                <span>Articles</span>
+                </a>
+                <a class="" href="#">
+                <i class="fab fa-kickstarter-k"></i>
+                <span>Kevin</span>
+                </a>
+                <a class="" href="#">
+                <i class="far fa-thumbs-up"></i>
+                <span>Portfolio</span>
+                </a>
+            </nav>
+        </div>
     </header>
     <div class="">
         <div class="">

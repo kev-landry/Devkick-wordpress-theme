@@ -29,7 +29,7 @@
 
 // START Editing Project Variables.
 // Project related.
-var project                 = 'devkick'; // Project Name.
+var project                 = 'WPGulpTheme'; // Project Name.
 var projectURL              = 'localhost:8080'; // Local project URL of your already running WordPress site. Could be something like local.dev or localhost:8888.
 var productURL              = './'; // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
 
@@ -43,8 +43,8 @@ var lastTranslator          = 'Ahmad Awais <your_email@email.com>'; // Last tran
 var team                    = 'WPTie <your_email@email.com>'; // Team's Email ID.
 
 // Style related.
-var styleSRC                = './assets/css/main.scss'; // Path to main .scss file.
-var styleDestination        = './'; // Path to place the compiled CSS file.
+var styleSRC                = 'assets/sass/main.scss'; // Path to main .scss file.
+var styleDestination        = 'assets/css/'; // Path to place the compiled CSS file.
 // Default set to root folder.
 
 // JS Vendor related.
@@ -64,9 +64,9 @@ var imagesSRC               = './assets/img/raw/**/*.{png,jpg,gif,svg}'; // Sour
 var imagesDestination       = './assets/img/'; // Destination folder of optimized images. Must be different from the imagesSRC folder.
 
 // Watch files paths.
-var styleWatchFiles         = './assets/css/**/*.scss'; // Path to all *.scss files inside css folder and inside them.
-var vendorJSWatchFiles      = './assets/js/vendor/*.js'; // Path to all vendor JS files.
-var customJSWatchFiles      = './assets/js/custom/*.js'; // Path to all custom JS files.
+var styleWatchFiles         = 'assets/sass/*.scss'; // Path to all *.scss files inside css folder and inside them.
+var vendorJSWatchFiles      = './assets/js/*.js'; // Path to all vendor JS files.
+var customJSWatchFiles      = './assets/js/*.js'; // Path to all custom JS files.
 var projectPHPWatchFiles    = './**/*.php'; // Path to all PHP files.
 
 
@@ -184,7 +184,7 @@ gulp.task( 'browser-sync', function() {
     .pipe( sourcemaps.init( { loadMaps: true } ) )
     .pipe( autoprefixer( AUTOPREFIXER_BROWSERS ) )
 
-    .pipe( sourcemaps.write ( styleDestination ) )
+    .pipe( sourcemaps.write ( './' ) )
     .pipe( lineec() ) // Consistent Line Endings for non UNIX systems.
     .pipe( gulp.dest( styleDestination ) )
 
