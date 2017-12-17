@@ -13,11 +13,11 @@
 
 <body>
     <header> <!-- Menu barre top -->
-        <nav class="">
-            <a class="" href="#">Accueil</a>
-            <button class="" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+            <a class="navbar-brand" href="#">Accueil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
                 aria-expanded="false" aria-label="Toggle navigation">
-                <span class=""></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <!-- <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
@@ -40,8 +40,8 @@
             </div> -->
         </nav>
     </header>
-    <div class="">
-        <div class="">
+    <div class="container">
+        <div class="jumbotron">
             <h1>Page d'acceuil</h1>
         </div>
     </div>
@@ -55,18 +55,17 @@
     ?>
 
     <section>
-        <div class="">
+        <div class="container">
 
             <?php if (have_posts()): ?>
             <?php while( have_posts()): the_post(); ?>
 
-            <div class="">
-                <div class="">
+            <div class="row m-dw-30">
+                <div class="col-2">
                     <?php the_post_thumbnail('thumbnail');?>
                 </div>
-                <div class="">
+                <div class="col-10">
                     <h2><?php the_title();?></h2>
-                    <?php the_date(); ?>
                     <?php the_excerpt();?> <!-- Si l'article n'a pas de read more -->
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend urna vitae lectus lacinia eleifend.
                         Sed id consequat lorem. Aenean interdum ultrices nulla, id varius tellus fringilla eu. Vivamus suscipit
@@ -81,8 +80,8 @@
             <!-- row m-dw-30 -->
             <?php endwhile; ?>
             <?php else: ?>
-                <div class="">
-                    <div class="">
+                <div class="row">
+                    <div class="col-12">
                         <p>Pas de résultats !</p>
                     </div>
                 </div>

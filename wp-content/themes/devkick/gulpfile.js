@@ -29,7 +29,7 @@
 
 // START Editing Project Variables.
 // Project related.
-var project                 = 'WPGulpTheme'; // Project Name.
+var project                 = 'devkick'; // Project Name.
 var projectURL              = 'localhost:8080'; // Local project URL of your already running WordPress site. Could be something like local.dev or localhost:8888.
 var productURL              = './'; // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
 
@@ -43,7 +43,7 @@ var lastTranslator          = 'Ahmad Awais <your_email@email.com>'; // Last tran
 var team                    = 'WPTie <your_email@email.com>'; // Team's Email ID.
 
 // Style related.
-var styleSRC                = './assets/css/style.scss'; // Path to main .scss file.
+var styleSRC                = './assets/css/main.scss'; // Path to main .scss file.
 var styleDestination        = './'; // Path to place the compiled CSS file.
 // Default set to root folder.
 
