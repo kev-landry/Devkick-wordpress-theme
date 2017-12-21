@@ -8,9 +8,6 @@ body {
     background-color: #f6f6f7;
     font-size: 16px;
 }
-a {
-  color: white;
-}
 a:link, a:visited {
     text-decoration: none;
 }
@@ -32,6 +29,7 @@ header {
 .topbar a {
     display: flex;
     height: 80px;
+    color: #f6f6f7;
     align-items: center;
     justify-content: center;
     font-size: 1.1rem;
@@ -42,7 +40,7 @@ header {
 } */
 .topbar a:hover {
     background-color: rgba(0, 0, 0,0.3);
-    border-bottom: 3px solid #5eeda3;
+    // border-bottom: 3px solid #5eeda3;
     color: #5eeda3;
 }
 .topbar a:hover span {
