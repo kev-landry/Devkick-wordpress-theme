@@ -14,44 +14,35 @@
 <body>
     <header class="">
         <!-- Menu barre top -->
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="#">
+        <div class="nav-container">
+            <nav class="topbar">
+                <a class="" href="#">
                     <i class="fas fa-home"></i>
                     <span>Accueil</span>
                 </a>
-                <a class="navbar-item" href="#">
+                <a class="" href="#">
                     <i class="fas fa-desktop"></i>
                     <span>Articles</span>
                 </a>
-                <a class="navbar-item" href="#">
+                <a class="" href="#">
                     <i class="fab fa-kickstarter-k"></i>
                     <span>Kevin</span>
                 </a>
-                <a class="navbar-item" href="#">
+                <a class="" href="#">
                     <i class="far fa-thumbs-up"></i>
                     <span>Portfolio</span>
                 </a>
-                <button class="button navbar-burger">
-                    <span>test</span>
-                    <span>test</span>
-                    <span>test</span>
-                </button>
-            </div>
-            <div class="navbar-menu">
-
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <main class="main" id="main-content">
         <header class="header-main">
-            <div class="container">
+            <div class="">
                 <div class="header-left">
-                    <p>27 ans, actuellement en alternance en tant que developpeur web et passionné par les nouvelles technologies,
-                        notamment du web et de l'IA. Ici tu trouvera ce que j'apprend au fil de mon apprentissage et découverte
-                        sous forme d'articles/tutos. Je ferai donc en sorte, à mon échelle, de leur rendre la pareille via
-                        ce blog .
+                    <p>27 ans, actuellement en alternance en tant que developpeur web et passionné par les nouvelles technologies, notamment du web et de l'IA.
+                    Ici tu trouvera ce que j'apprend au fil de mon apprentissage et découverte sous forme d'articles/tutos.
+                    Je ferai donc en sorte, à mon échelle, de leur rendre la pareille via ce blog .
                     </p>
                 </div>
                 <div class="header-right">

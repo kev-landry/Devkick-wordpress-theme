@@ -1,0 +1,11 @@
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+@import "../../node_modules/bulma/sass/utilities/functions";
+@import "../../node_modules/bulma/sass/utilities/_all";
+@import "../../node_modules/bulma/sass/components/navbar";
+
+
+$dark: #72d0eb;
+$navbar-background-color: $dark;
+
+
+@import "../../node_modules/bulma/bulma";
