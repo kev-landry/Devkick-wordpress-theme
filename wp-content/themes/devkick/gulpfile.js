@@ -64,7 +64,7 @@ var imagesSRC               = './assets/img/raw/**/*.{png,jpg,gif,svg}'; // Sour
 var imagesDestination       = './assets/img/'; // Destination folder of optimized images. Must be different from the imagesSRC folder.
 
 // Watch files paths.
-var styleWatchFiles         = 'assets/sass/*.scss'; // Path to all *.scss files inside css folder and inside them.
+var styleWatchFiles         = 'assets/sass/**/*.scss'; // Path to all *.scss files inside css folder and inside them.
 var vendorJSWatchFiles      = './assets/js/*.js'; // Path to all vendor JS files.
 var customJSWatchFiles      = './assets/js/*.js'; // Path to all custom JS files.
 var projectPHPWatchFiles    = './**/*.php'; // Path to all PHP files.
@@ -141,7 +141,7 @@ gulp.task( 'browser-sync', function() {
 
     // `true` Automatically open the browser with BrowserSync live server.
     // `false` Stop the browser from automatically opening.
-    open: true,
+    open: false,
 
     // Inject CSS changes.
     // Commnet it to reload browser for every CSS change.
