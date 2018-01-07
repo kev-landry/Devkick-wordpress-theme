@@ -1,2 +1,97 @@
-$navbar-background-color: $white !default;
-@import "../../../node_modules/bulma/sass/components/navbar.sass";
+$nav-bg: $blue-dark;
+$navbar-background-color: $blue-dark;
+// @import "../../../node_modules/bulma/sass/components/navbar.sass";
+
+
+.main-nav {
+    background-color: $nav-bg;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.main-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.search-area {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nav-form-search {
+    height: 100%;
+}
+.nav-form-search-input {
+    height: 100%;
+    min-width: 130px;
+    background-color: lighten($nav-bg, 10%);
+    border: none;
+    text-align: center;
+    color: $white;
+    &:active,
+    &:focus,
+    &:hover {
+        border-style: none;
+        border: none;
+        outline: none;
+        background-color: lighten($nav-bg, 13%);
+    }
+}
+
+.nav-form-search-submit {
+    color: $white;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    height: 100%;
+    font-size: 1.1rem;
+}
+.main-navigation a {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    flex-direction: column;
+    color: $grey-light;
+}
+/* .main-navigation a:hover {
+    background-color: rgba(0, 0, 0,0.5);
+} */
+.main-navigation a:hover {
+    background-color: rgba(0, 0, 0,0.3);
+/*     border-bottom: 3px solid #5eeda3; */
+    color: #5eeda3;
+    max-height:77px;
+}
+.main-navigation a:hover span {
+  color: $white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

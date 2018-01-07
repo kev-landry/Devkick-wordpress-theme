@@ -65,7 +65,7 @@ node_modules
 .idea/
 library/vendors/composer
 assets/img/.DS_Store
-assets/sass/HTML
-assets/sass/Rails
+assets/sass/
+assets/sass
 HTML
 Rails

@@ -12,36 +12,37 @@
 </head>
 
 <body>
-    <header class="">
+    <header class="main-nav">
         <!-- Menu barre top -->
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="#">
+        <div class="nav-container">
+            <nav class="main-navigation">
+                <a class="" href="#">
                     <i class="fas fa-home"></i>
                     <span>Accueil</span>
                 </a>
-                <a class="navbar-item" href="#">
+                <a class="" href="#">
                     <i class="fas fa-desktop"></i>
                     <span>Articles</span>
                 </a>
-                <a class="navbar-item" href="#">
+                <a class="" href="#">
                     <i class="fab fa-kickstarter-k"></i>
                     <span>Kevin</span>
                 </a>
-                <a class="navbar-item" href="#">
+                <a class="" href="#">
                     <i class="far fa-thumbs-up"></i>
                     <span>Portfolio</span>
                 </a>
-                <button class="button navbar-burger">
-                    <span>test</span>
-                    <span>test</span>
-                    <span>test</span>
-                </button>
+            </nav>
+            <div class="search-area">
+                <form role="search" action="" method="get" name="s" class="nav-form-search">
+                    <label for=""></label>
+                    <input type="search" placeholder="Chercher" name="s" class="nav-form-search-input">
+                    <button type="submit" class="nav-form-search-submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
             </div>
-            <div class="navbar-menu">
-
-            </div>
-        </nav>
+        </div>
     </header>
 
     <main class="main" id="main-content">
