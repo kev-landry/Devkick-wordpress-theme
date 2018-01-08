@@ -31,6 +31,7 @@ $navbar-background-color: $blue-dark;
     border: none;
     text-align: center;
     color: $white;
+    font-size: 1.1rem;
     &:active,
     &:focus,
     &:hover {
@@ -46,8 +47,8 @@ $navbar-background-color: $blue-dark;
     border: none;
     cursor: pointer;
     background-color: transparent;
-    height: 100%;
     font-size: 1.1rem;
+
 }
 .main-navigation a {
     display: flex;

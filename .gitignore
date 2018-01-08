@@ -13,3 +13,4 @@ node_modules
 .DS_Store
 src/scss/.sass-cache
 package-lock.json
+assets/images
