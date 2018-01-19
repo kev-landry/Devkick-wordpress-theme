@@ -5,6 +5,10 @@ $navbar-background-color: $blue-dark;
 
 .main-nav {
     background-color: $nav-bg;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    list-style: none;
 }
 
 .nav-container {
@@ -17,12 +21,11 @@ $navbar-background-color: $blue-dark;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.search-area {
-    display: flex;
-    flex-wrap: nowrap;
-}
+
 .nav-form-search {
     height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .nav-form-search-input {
     height: 100%;
@@ -50,7 +53,7 @@ $navbar-background-color: $blue-dark;
     font-size: 1.1rem;
 
 }
-.main-navigation a {
+.main-navigation li a {
     display: flex;
     height: 80px;
     align-items: center;

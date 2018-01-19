@@ -26,10 +26,11 @@ add_action( 'wp_enqueue_scripts', 'kdev_scripts' );
 function kdev_setup() {
     add_theme_support('post-thumbnails');
     remove_action('wp_head', 'wp_generator' );
-    //Enelevez les guillemets
-    remove_action('the_content', 'wptexturize');
+    //Enlevez les guillemets
+    // remove_filter('the_content', 'wptexturize');
     add_theme_support('title-tag');
     //Active gestion des menus
-    register_nav_menus( array( 'primary' => 'devkick', 'secondary' => 'second') );
+    register_nav_menus( array( 'primary' => 'main') );
+    // add_filter ('Devkick_Walker_Nav_Menu');
 }
 add_action( 'after_setup_theme', 'kdev_setup');

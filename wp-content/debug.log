@@ -3,3 +3,107 @@
 [14-Dec-2017 20:08:34 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\index.php on line 81
 [16-Dec-2017 19:23:58 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 34
 [16-Dec-2017 19:23:58 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 34
+[19-Jan-2018 14:55:23 UTC] PHP Parse error:  syntax error, unexpected ''container'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\index.php on line 50
+[19-Jan-2018 15:05:02 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\index.php on line 52
+[19-Jan-2018 17:14:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Devkick_Walker_Nav_Menu' not found in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\index.php:44
+Stack trace:
+#0 C:\laragon\www\Devkick-wordpress-theme\wp-includes\template-loader.php(74): include()
+#1 C:\laragon\www\Devkick-wordpress-theme\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Devkick-wordpress-theme\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\index.php on line 44
+[19-Jan-2018 17:30:28 UTC] PHP Parse error:  syntax error, unexpected '%' in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\index.php on line 43
+[19-Jan-2018 17:49:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Devkick_Walker_Nav_Menu() in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php:34
+Stack trace:
+#0 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(286): kdev_setup('')
+#1 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\laragon\www\Devkick-wordpress-theme\wp-settings.php(434): do_action('after_setup_the...')
+#4 C:\laragon\www\Devkick-wordpress-theme\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\Devkick-wordpress-theme\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\Devkick-wordpress-theme\wp-admin\admin.php(31): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\Devkick-wordpress-theme\wp-admin\theme-editor.php(10): require_once('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 34
+[19-Jan-2018 17:49:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Devkick_Walker_Nav_Menu() in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php:34
+Stack trace:
+#0 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(286): kdev_setup('')
+#1 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\laragon\www\Devkick-wordpress-theme\wp-settings.php(434): do_action('after_setup_the...')
+#4 C:\laragon\www\Devkick-wordpress-theme\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\Devkick-wordpress-theme\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\Devkick-wordpress-theme\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\Devkick-wordpress-theme\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 34
+[19-Jan-2018 17:53:50 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/includes/class-devkick-walker-nave-menu.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:53:50 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/includes/class-devkick-walker-nave-menu.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:54:30 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick../../includes/class-devkick-walker-nave-menu.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:54:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick../../includes/class-devkick-walker-nave-menu.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:55:39 UTC] PHP Warning:  require_once(../../includes/class-devkick-walker-nave-menu.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:55:39 UTC] PHP Fatal error:  require_once(): Failed opening required '../../includes/class-devkick-walker-nave-menu.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:57:46 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkickclass-devkick-walker-nave-menu.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:57:46 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkickclass-devkick-walker-nave-menu.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:14 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/class-devkick-walker-nave-menu.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/class-devkick-walker-nave-menu.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:21 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/class-devkick-walker-nave-menu.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:21 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/class-devkick-walker-nave-menu.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:21 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/class-devkick-walker-nave-menu.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:21 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/class-devkick-walker-nave-menu.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:21 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/class-devkick-walker-nave-menu.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:21 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/class-devkick-walker-nave-menu.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:21 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/class-devkick-walker-nave-menu.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:21 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/class-devkick-walker-nave-menu.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:35 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\class-devkick-walker-nave-menu.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\class-devkick-walker-nave-menu.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 4
+[19-Jan-2018 17:58:59 UTC] PHP Warning:  Declaration of Devkick_Walker_Nav_Menu::start_el(&$output, $item, $depth, $args) should be compatible with Walker_Nav_Menu::start_el(&$output, $item, $depth = 0, $args = Array, $id = 0) in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\class-devkick-walker-nav-menu.php on line 27
+[19-Jan-2018 17:58:59 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/includes/class-walker-nave-menu.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\class-devkick-walker-nav-menu.php on line 2
+[19-Jan-2018 17:58:59 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/includes/class-walker-nave-menu.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\class-devkick-walker-nav-menu.php on line 2
+[19-Jan-2018 17:59:21 UTC] PHP Warning:  Declaration of Devkick_Walker_Nav_Menu::start_el(&$output, $item, $depth, $args) should be compatible with Walker_Nav_Menu::start_el(&$output, $item, $depth = 0, $args = Array, $id = 0) in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\class-devkick-walker-nav-menu.php on line 27
+[19-Jan-2018 17:59:21 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/includes/class-walker-nave-menu.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\class-devkick-walker-nav-menu.php on line 2
+[19-Jan-2018 17:59:22 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick/includes/class-walker-nave-menu.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\class-devkick-walker-nav-menu.php on line 2
+[19-Jan-2018 17:59:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Devkick_Walker_Nav_Menu() in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php:34
+Stack trace:
+#0 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(286): kdev_setup('')
+#1 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\laragon\www\Devkick-wordpress-theme\wp-settings.php(434): do_action('after_setup_the...')
+#4 C:\laragon\www\Devkick-wordpress-theme\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\Devkick-wordpress-theme\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\Devkick-wordpress-theme\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\Devkick-wordpress-theme\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 34
+[19-Jan-2018 18:04:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Devkick_Walker_Nav_Menu() in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php:34
+Stack trace:
+#0 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(286): kdev_setup('')
+#1 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\laragon\www\Devkick-wordpress-theme\wp-settings.php(434): do_action('after_setup_the...')
+#4 C:\laragon\www\Devkick-wordpress-theme\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\Devkick-wordpress-theme\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\Devkick-wordpress-theme\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\Devkick-wordpress-theme\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 34
+[19-Jan-2018 18:06:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 34 and at least 2 expected in C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php:106
+Stack trace:
+#0 C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php(34): add_filter('Devkick_Walker_...')
+#1 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(286): kdev_setup('')
+#2 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\laragon\www\Devkick-wordpress-theme\wp-settings.php(434): do_action('after_setup_the...')
+#5 C:\laragon\www\Devkick-wordpress-theme\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\Devkick-wordpress-theme\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\Devkick-wor in C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php on line 106
+[19-Jan-2018 18:09:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 34 and at least 2 expected in C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php:106
+Stack trace:
+#0 C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php(34): add_filter('Devkick_Walker_...')
+#1 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(286): kdev_setup('')
+#2 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\laragon\www\Devkick-wordpress-theme\wp-settings.php(434): do_action('after_setup_the...')
+#5 C:\laragon\www\Devkick-wordpress-theme\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\Devkick-wordpress-theme\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\Devkick-wor in C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php on line 106
