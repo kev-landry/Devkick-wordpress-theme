@@ -46,16 +46,16 @@
     </header>
 
     <main class="main container" id="main-content">
-        <header class="main-header level">
-                <div class="header-left level-left">
+        <header class="main-header">
+                <div class="header-left">
                     <p>27 ans, actuellement en alternance en tant que developpeur web et passionné par les nouvelles technologies,
                         notamment du web et de l'IA. Ici tu trouvera ce que j'apprend au fil de mon apprentissage et découverte
                         sous forme d'articles/tutos. Je ferai donc en sorte, à mon échelle, de leur rendre la pareille via
                         ce blog .
                     </p>
                 </div>
-                <div class="header-right level-right">
-                    <img src="" alt="">
+                <div class="header-right">
+                    <img src="/images/kev.jpg" alt="">
                 </div>
         </header>
         <section>
