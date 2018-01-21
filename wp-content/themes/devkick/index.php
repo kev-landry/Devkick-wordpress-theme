@@ -13,7 +13,7 @@
                         </div>
                         <div class="header-right column">
                             <figure class="image is-256x256">
-                                <img src="//kevtodev.loc:3000/wp-content/uploads/2018/01/cercle_moi.jpg" alt="avatar">
+                                <img src="//devkick.loc:3000/wp-content/uploads/2018/01/cercle_moi.jpg" alt="avatar">
                             </figure>
                         </div>
                     </div>
@@ -27,16 +27,16 @@
                     <?php if (have_posts()): ?>
                     <!-- Boucle articles -->
                     <?php while( have_posts()): the_post();?>
-
                     <div class="column">
-                        <article class="box">
+                        <article id="post-<?php the_ID();?>" class="box">
                             <a href="<?php the_permalink( ); ?>">
-                                <?php the_post_thumbnail('thumbnail',['class' => 'img-responsive img-thumbnail'] ); ?> </a>
+                                <?php the_post_thumbnail('thumbnail',['class' => 'img-responsive img-thumbnail'] ); ?>
+                            </a>
                             <h1>
                                 <a href="<?php the_permalink() ?>">
                                     <?php the_title();?>
+                                </a>
                             </h1>
-                            </a>
                             <?php the_date(); ?>
                             <?php the_excerpt();?>
                             <!-- Si l'article n'a pas de read more -->
