@@ -29,7 +29,7 @@
                     <?php while( have_posts()): the_post();?>
                     <div class="column">
                         <article id="post-<?php the_ID();?>" class="box">
-                            <a href="<?php the_permalink( ); ?>">
+                            <a href="<?php the_permalink(); ?>">
                                 <?php the_post_thumbnail('thumbnail',['class' => 'img-responsive img-thumbnail'] ); ?>
                             </a>
                             <h1>

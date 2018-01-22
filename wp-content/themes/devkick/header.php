@@ -19,9 +19,10 @@
                     <i class="fas fa-home"></i>
                     <span>Accueil</span>
                 </a>
-                <a class="" href="#">
+                <?php $cat_id= get_cat_ID( 'Tutoriels' );?>
+                <a class="" href="<?php echo esc_url(get_category_link($cat_id)) ?>">
                     <i class="fas fa-desktop"></i>
-                    <span>Articles</span>
+                    <span>Tutoriels</span>
                 </a>
                 <a class="" href="#">
                     <i class="fab fa-kickstarter-k"></i>
