@@ -24,6 +24,11 @@
                     <i class="fas fa-desktop"></i>
                     <span>Tutoriels</span>
                 </a>
+                <?php $cat_id= get_cat_ID( 'Snippets' );?>
+                <a class="" href="<?php echo esc_url(get_category_link($cat_id)) ?>">
+                    <i class="fas fa-desktop"></i>
+                    <span>Snippets</span>
+                </a>
                 <a class="" href="#">
                     <i class="fab fa-kickstarter-k"></i>
                     <span>Kevin</span>

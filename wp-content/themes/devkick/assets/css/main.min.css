@@ -920,7 +920,7 @@ a.dropdown-item.is-active{background-color:#3273dc;color:#fff}
 .modal-card-body{-webkit-overflow-scrolling:touch;background-color:white;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;-webkit-flex-shrink:1;-ms-flex-negative:1;flex-shrink:1;overflow:auto;padding:20px}
 .main-nav{background-color:#282b36;position:absolute;top:0;width:100%;list-style:none}
 .nav-container{max-width:1200px;margin:0 auto;display:-ms-grid;display:grid;-ms-grid-columns:80% 20%;grid-template-columns:80% 20%}
-.main-navigation{display:-ms-grid;display:grid;-ms-grid-columns:1fr 1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr 1fr}
+.main-navigation{display:-ms-grid;display:grid;-ms-grid-columns:1fr 1fr 1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr 1fr 1fr}
 .nav-form-search{height:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap}
 .nav-form-search-input{height:100%;min-width:130px;background-color:#3e4253;border:0;text-align:center;color:white;font-size:1.1rem}
 .nav-form-search-input:active,.nav-form-search-input:focus,.nav-form-search-input:hover{border-style:none;border:0;outline:0;background-color:#44495c}

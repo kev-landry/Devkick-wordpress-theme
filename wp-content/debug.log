@@ -107,3 +107,6 @@ Stack trace:
 #5 C:\laragon\www\Devkick-wordpress-theme\wp-config.php(96): require_once('C:\\laragon\\www\\...')
 #6 C:\laragon\www\Devkick-wordpress-theme\wp-load.php(37): require_once('C:\\laragon\\www\\...')
 #7 C:\laragon\www\Devkick-wor in C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php on line 106
+[23-Jan-2018 21:56:19 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\laragon\www\devkick\wp-content\themes\devkick\index.php on line 39
+[23-Jan-2018 21:57:15 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\laragon\www\devkick\wp-content\themes\devkick\index.php on line 39
+[23-Jan-2018 21:59:06 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\laragon\www\devkick\wp-content\themes\devkick\index.php on line 39

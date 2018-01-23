@@ -22,7 +22,7 @@
                 <?php the_content();?>
             </div>
         </section>
-        <!-- Si l'article n'a pas de read more -->
+        <!-- Si l'article n'a pas de read more- -->
     </article>
     <?php
 endwhile; endif;
