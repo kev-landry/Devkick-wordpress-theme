@@ -8,6 +8,11 @@
 
     <title>Blog</title>
 
+    <?php if(!is_single()):?>
+    <meta name="description" content="<?php bloginfo('description'); ?>" />
+    <?php else: ?>
+    <meta name="description" content="<?php single_post_title( '', true) ?>" />
+    <?php endif; ?>
     <?php wp_head(); ?>
 </head>
 

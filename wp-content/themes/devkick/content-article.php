@@ -7,7 +7,6 @@
             <?php the_title();?>
         </a>
     </h1>
-    <?php the_date(); ?>
+    <?php //the_date(); ?>
     <?php the_excerpt();?>
-    <!-- Si l'article n'a pas de read more -->
 </article>

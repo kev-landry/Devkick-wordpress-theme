@@ -30,9 +30,9 @@
                     foreach( $myposts as $post ) :	setup_postdata($post);
                     ?>
                         <div class="column">
-                            <?php get_template_part('content-article'); ?>
+                            <?php get_template_part('content-article', get_post_format()); ?>
                         </div>
-                    <?php endforeach; ?>
+                    <?php endforeach; wp_reset_postdata();?>
 
 
                 </div>
