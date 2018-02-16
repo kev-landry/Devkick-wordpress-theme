@@ -22,22 +22,38 @@ function devkick_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'devkick_scripts' );
 
+//
+// ─── DASHBOARD SCRIPTS ──────────────────────────────────────────────────────────
+//
+
+function devkick_admin_init() {
+    function devkick_admin_scripts() {
+        wp_enqueue_style( 'devkick_css', get_template_directory_uri(). '/assets/css/main.css', array(),
+        DEVKICK_VERSION, 'all' );
+        wp_enqueue_script( 'fa_cdn', 'https://use.fontawesome.com/releases/v5.0.1/js/all.js');
+        wp_enqueue_style( 'fonts_css', 'https://fonts.googleapis.com/css?family=Nunito|Open+Sans|Roboto');
+
+    }
+    add_action('admin_enqueue_scripts', 'devkick_admin_scripts');
+
+    include('includes/save-options-page.php');
+    add_action('admin_post_devkick_save_options', 'devkick_save_options');
+}
+add_action('admin_init', 'devkick_admin_init');
+
+
 // Devkick initialization
 
-function devkick_init() {
-    add_theme_support('post-thumbnails');
-    remove_action('wp_head', 'wp_generator' );
-    //Enlevez les guillemets
-    // remove_filter('the_content', 'wptexturize');
-    add_theme_support('title-tag');
-    //Active gestion des menus
-    register_nav_menus( array( 'primary' => 'main') );
-    // add_filter ('Devkick_Walker_Nav_Menu');
-    add_action('init', 'speed_stop_loading_wp_embed');
-}
-add_action( 'devkick_init', 'devkick_setup');
-
-
+    function devkick_init() {
+        add_theme_support('post-thumbnails');
+        remove_action('wp_head', 'wp_generator' );
+        add_theme_support('title-tag');
+        //Active gestion des menus
+        register_nav_menus( array( 'primary' => 'main') );
+        // add_filter ('Devkick_Walker_Nav_Menu');
+        speed_stop_loading_wp_embed();
+    }
+    add_action('init', 'devkick_init');
 
 //
 // ──────────────────────────────────────────────────────────────────────────────────── III ──────────
@@ -62,6 +78,10 @@ function devkick_activ_options() {
     }
 }
 add_action( 'after_switch_theme', 'devkick_activ_options');
+
+//
+// ─── SETTINGS DEVKICK THEME ─────────────────────────────────────────────────────
+//
 
 function devkick_admin_menus() {
     add_menu_page(

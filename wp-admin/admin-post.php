@@ -56,6 +56,8 @@ if ( ! wp_validate_auth_cookie() ) {
 		 *
 		 * @since 2.6.0
 		 */
+		echo "VIDE";
+
 		do_action( 'admin_post' );
 	} else {
 		/**
@@ -66,6 +68,7 @@ if ( ! wp_validate_auth_cookie() ) {
 		 *
 		 * @since 2.6.0
 		 */
+		echo "OK";
 		do_action( "admin_post_{$action}" );
 	}
 }
