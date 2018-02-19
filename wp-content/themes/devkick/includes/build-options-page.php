@@ -15,7 +15,6 @@ function devkick_build_options_page() {
         </section>
         <section class="section">
             <div class="container">
-
             <?php
                 if (isset($_GET['status']) && $_GET['status'] == 1) {
                     echo '<article class="message is-primary">
@@ -40,28 +39,38 @@ function devkick_build_options_page() {
                   </article>';
                 }
             ?>
-                <form id="form-devkick-options" action="admin-post.php" method="post">
-                    <input class="input" name="action"type="hidden" value="devkick_save_options">
-                    <!-- <div class="field">
-                        <label class="label">Legend</label>
-                        <div class="control">
-                            <input class="input" type="text" placeholder="Legend" value="">
-                        </div>
-                    </div> -->
+            </div>
+            <form class="media" id="form-devkick-options" action="admin-post.php" method="post">
+                <input class="input" name="action"type="hidden" value="devkick_save_options">
+                <figure class="media-left">
+                    <button type="button" id="devkick_image_01"class="image is-128x128 devkick_image_01">
+                        <img src="https://bulma.io/images/placeholders/128x128.png">
+                    </button>
+                </figure>
+                <div class="media-content">
                     <div class="field">
-                        <label class="label">Legend</label>
-                        <div class="control">
-                            <input id="devkick_legend_01" class="input" type="text" placeholder="Legend" name="devkick_legend_01" value="<?php echo $theme_opts['legend_01']; ?>">
-                        </div>
+                    <label class="label">Legend</label>
+                        <p class="control">
+                            <textarea id="devkick_legend_01" class="textarea" type="text" placeholder="Describe your site, yourself or what the fuck you want..." name="devkick_legend_01" value="<?php echo $theme_opts['legend_01']; ?>"></textarea>
+                        </p>
                     </div>
                     <?php wp_nonce_field( 'devkick_nonce', 'devkick_options_check' ); ?>
-                    <div class="field">
-                        <div class="control">
-                            <button type="submit" class="button is-primary">Submit</button>
+                    <nav class="level">
+                        <div class="field">
+                            <div class="control">
+                                <button type="submit" class="button is-primary">Submit</button>
+                            </div>
                         </div>
-                    </div>
-                </form>
-            </div>
+                        <div class="level-right">
+                            <div class="level-item">
+                                <label class="checkbox">
+                                    <input type="checkbox"> Press enter to submit
+                                </label>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </form>
         </section>
 
 
@@ -70,6 +79,20 @@ function devkick_build_options_page() {
 
 
 
+                <script type="text/javascript">
+                console.log("devkick-options !");
+
+const button = document.querySelector('.devkick_image_01');
+console.log(button);
+button.addEventListener("hover", clg());
+
+function clg() {
+    let i = 0;
+    i++;
+    console.log(i);
+}
+
+                </script>
 
     <?php
 }
