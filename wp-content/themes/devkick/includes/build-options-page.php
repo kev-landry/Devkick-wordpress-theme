@@ -76,24 +76,6 @@ function devkick_build_options_page() {
 
 
 
-
-
-
-                <script type="text/javascript">
-                console.log("devkick-options !");
-
-const button = document.querySelector('.devkick_image_01');
-console.log(button);
-button.addEventListener("hover", clg());
-
-function clg() {
-    let i = 0;
-    i++;
-    console.log(i);
-}
-
-                </script>
-
     <?php
 }
 
