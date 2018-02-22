@@ -43,8 +43,9 @@ function devkick_build_options_page() {
             <form class="media" id="form-devkick-options" action="admin-post.php" method="post">
                 <input class="input" name="action"type="hidden" value="devkick_save_options">
                 <figure class="media-left">
-                    <button type="button" id="devkick_image_01"class="image is-128x128 devkick_image_01">
-                        <img src="https://bulma.io/images/placeholders/128x128.png">
+                    <button type="button" id="btn_img_01" class="image is-128x128">
+                        <img id="preview_img_01" src="<?php echo $theme_opts['image_01_url']; ?>">
+                        <input type="hidden" id="input_img_01" name="devkick_image_url_01">
                     </button>
                 </figure>
                 <div class="media-content">
@@ -72,9 +73,6 @@ function devkick_build_options_page() {
                 </div>
             </form>
         </section>
-
-
-
 
     <?php
 }

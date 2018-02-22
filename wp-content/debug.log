@@ -137,3 +137,17 @@ Stack trace:
 [16-Feb-2018 18:11:32 UTC] PHP   5. devkick_save_options() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
 [16-Feb-2018 18:26:45 UTC] PHP Parse error:  syntax error, unexpected '{' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\build-options-page.php on line 31
 [16-Feb-2018 18:41:57 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\save-options-page.php on line 18
+[22-Feb-2018 23:15:48 UTC] PHP Notice:  Undefined index: image_01_url in C:\laragon\www\devkick\wp-content\themes\devkick\includes\build-options-page.php on line 47
+[22-Feb-2018 23:15:48 UTC] PHP Stack trace:
+[22-Feb-2018 23:15:48 UTC] PHP   1. {main}() C:\laragon\www\devkick\wp-admin\admin.php:0
+[22-Feb-2018 23:15:48 UTC] PHP   2. do_action() C:\laragon\www\devkick\wp-admin\admin.php:224
+[22-Feb-2018 23:15:48 UTC] PHP   3. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[22-Feb-2018 23:15:48 UTC] PHP   4. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[22-Feb-2018 23:15:48 UTC] PHP   5. devkick_build_options_page() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[22-Feb-2018 23:18:40 UTC] PHP Notice:  Undefined index: devkick_image_url_01 in C:\laragon\www\devkick\wp-content\themes\devkick\includes\save-options-page.php on line 13
+[22-Feb-2018 23:18:40 UTC] PHP Stack trace:
+[22-Feb-2018 23:18:40 UTC] PHP   1. {main}() C:\laragon\www\devkick\wp-admin\admin-post.php:0
+[22-Feb-2018 23:18:40 UTC] PHP   2. do_action() C:\laragon\www\devkick\wp-admin\admin-post.php:72
+[22-Feb-2018 23:18:40 UTC] PHP   3. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[22-Feb-2018 23:18:40 UTC] PHP   4. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[22-Feb-2018 23:18:40 UTC] PHP   5. devkick_save_options() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286

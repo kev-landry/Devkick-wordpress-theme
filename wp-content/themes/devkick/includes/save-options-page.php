@@ -10,6 +10,7 @@ function devkick_save_options() {
     $opts = get_option( 'devkick_opts' );
 
     $opts['legend_01'] = sanitize_text_field($_POST['devkick_legend_01']);
+    $opts['image_01_url'] = sanitize_text_field($_POST['devkick_image_url_01']);
 
     update_option( 'devkick_opts', $opts );
     if (empty($_POST['devkick_legend_01'])) {

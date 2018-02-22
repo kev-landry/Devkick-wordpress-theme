@@ -141,7 +141,7 @@ gulp.task( 'browser-sync', function() {
 
     // `true` Automatically open the browser with BrowserSync live server.
     // `false` Stop the browser from automatically opening.
-    open: false,
+    open: true,
 
     // Inject CSS changes.
     // Commnet it to reload browser for every CSS change.
