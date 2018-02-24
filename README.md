@@ -4,6 +4,7 @@ Creating a wordpress theme from scratch.
 
 The aim of this theme is to make it simple to developpers to setup a blog and only care about what the tutorials, articles they want to write about.
 The look tends to be minimalistic and only hightlight what is important.
+The second purpose of this project is to progress my wordpress skill by developping it from nothing ;)
 
 <h2>External resources</h2>
 
@@ -12,3 +13,8 @@ The look tends to be minimalistic and only hightlight what is important.
   <li>Task running manager <a href="https://github.com/ahmadawais/wpgulp/">WPGulp</a></li>
   <li><a href="http://prismjs.com/">Prism</a> as code highliter</li>
 </ul>
+
+<h2>Installation</h2>
+
+The theme is still under construction even thought most of the mandatory features are in.</br>
+Devkick is located in wp-content/themes/<strong>devkick</strong> feel free to use it, fork it, or whatever you want to.
