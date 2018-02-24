@@ -3,8 +3,8 @@
 Creating a wordpress theme from scratch.
 
 The aim of this theme is to make it simple to developpers to setup a blog and only care about what the tutorials, articles they want to write about.
-The look tends to be minimalistic and only hightlight what is important.
-The second purpose of this project is to progress my wordpress skill by developping it from nothing ;)
+The look tends to be minimalistic and only hightlight what is important.</br>
+The second purpose of this project is to progress in wordpress skill ;)
 
 <h2>External resources</h2>
 
