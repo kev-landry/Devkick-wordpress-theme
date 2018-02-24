@@ -1,5 +1,8 @@
         <footer class="footer">
         <div class="container">
+            <!-- <div class="columns">
+
+            </div> -->
             <div class="content has-text-centered">
             <p>
                 <strong>DevKick</strong> by <a href="https://jgthms.com">Kevin Landry</a>. The source code is licensed

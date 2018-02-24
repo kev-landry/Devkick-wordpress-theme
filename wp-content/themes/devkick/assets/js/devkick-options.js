@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     frame.on('select', () =>{
         let objImg = frame.state().get('selection').first();
         console.log(objImg);
-        let img_url = objImg.attributes.sizes.thumbnail.url;
+        let img_url = objImg.attributes.sizes.medium_large.url;
         document.getElementById('preview_img_01').setAttribute('src', img_url);
         document.getElementById('input_img_01').setAttribute('value', img_url);
     })

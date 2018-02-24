@@ -17,7 +17,8 @@ function devkick_build_options_page() {
             <div class="container">
             <?php
                 if (isset($_GET['status']) && $_GET['status'] == 1) {
-                    echo '<article class="message is-primary">
+                    echo
+                    '<article class="message is-primary">
                     <div class="message-header">
                       <p>Succes</p>
                       <button class="delete" aria-label="delete"></button>
@@ -28,31 +29,57 @@ function devkick_build_options_page() {
                   </article>';
                 }
                 if (isset($_GET['status']) && $_GET['status'] == 2) {
-                    echo '<article class="message is-warning">
-                    <div class="message-header">
-                      <p>Warning</p>
-                      <button class="delete" aria-label="delete"></button>
-                    </div>
-                    <div class="message-body">
-                        The legend was updated even thought it is empty.
-                    </div>
-                  </article>';
+                    echo '
+                    <div class="notification is-danger">
+                    <button class="delete"></button>
+                        There was an error, contact your administrator or wait a few minutes before retry !
+                  </div>
+                  ';
                 }
             ?>
             </div>
+                <div class="tabs is-centered is-boxed">
+                    <ul>
+                        <li class="is-active">
+                        <a>
+                            <span class="icon is-small"><i class="fas fa-home"></i></span>
+                            <span>Home</span>
+                        </a>
+                        </li>
+                        <li>
+                        <a>
+                            <span class="icon is-small"><i class="fas fa-file"></i></span>
+                            <span>Category</span>
+                        </a>
+                        </li>
+                        <li>
+                        <a>
+                            <span class="icon is-small"><i class="fas fa-film"></i></span>
+                            <span>Videos</span>
+                        </a>
+                        </li>
+                        <li>
+                        <a>
+                            <span class="icon is-small"><i class="fas fa-file-alt"></i></span>
+                            <span>Documents</span>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
             <form class="media" id="form-devkick-options" action="admin-post.php" method="post">
                 <input class="input" name="action"type="hidden" value="devkick_save_options">
+
                 <figure class="media-left">
-                    <button type="button" id="btn_img_01" class="image is-128x128">
+                    <button type="button" id="btn_img_01" class="button is-light image-options is-128x128">
                         <img id="preview_img_01" src="<?php echo $theme_opts['image_01_url']; ?>">
-                        <input type="hidden" id="input_img_01" name="devkick_image_url_01">
+                        <input type="hidden" id="input_img_01" name="devkick_image_url_01" value="<?php echo $theme_opts['image_01_url']; ?>">
                     </button>
                 </figure>
                 <div class="media-content">
                     <div class="field">
-                    <label class="label">Legend</label>
                         <p class="control">
-                            <textarea id="devkick_legend_01" class="textarea" type="text" placeholder="Describe your site, yourself or what the fuck you want..." name="devkick_legend_01" value="<?php echo $theme_opts['legend_01']; ?>"></textarea>
+                            <textarea cols="25" maxlength="355" d="devkick_legend_01" class="textarea" type="textarea" placeholder="" name="devkick_legend_01" value="<?php echo stripslashes($theme_opts['legend_01']); ?>">   <?php echo stripslashes($theme_opts['legend_01']); ?>
+                            </textarea>
                         </p>
                     </div>
                     <?php wp_nonce_field( 'devkick_nonce', 'devkick_options_check' ); ?>

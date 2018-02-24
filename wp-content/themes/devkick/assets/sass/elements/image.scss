@@ -1,2 +1,20 @@
-$dimensions: 16 24 32 48 64 96 128 256 !default;
+$dimensions: 16 24 32 48 64 96 128 256 512 !default;
+
+.image-options {
+    display: block;
+    position: relative;
+    img {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    // Sizes
+    @each $dimension in $dimensions {
+        &.is-#{$dimension}x#{$dimension} {
+            height: $dimension * 1px;
+            width: $dimension * 1px;
+        }
+    }
+
+}
 @import "../../../node_modules/bulma/sass/elements/image.sass";

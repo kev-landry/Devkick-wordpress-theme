@@ -151,3 +151,163 @@ Stack trace:
 [22-Feb-2018 23:18:40 UTC] PHP   3. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
 [22-Feb-2018 23:18:40 UTC] PHP   4. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
 [22-Feb-2018 23:18:40 UTC] PHP   5. devkick_save_options() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[24-Feb-2018 09:58:42 UTC] PHP Notice:  Undefined variable: theme_opts in C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php on line 16
+[24-Feb-2018 09:58:42 UTC] PHP Stack trace:
+[24-Feb-2018 09:58:42 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Feb-2018 09:58:42 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Feb-2018 09:58:42 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Feb-2018 09:58:42 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Feb-2018 09:58:42 UTC] PHP Notice:  Undefined variable: theme_opts in C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php on line 16
+[24-Feb-2018 09:58:42 UTC] PHP Stack trace:
+[24-Feb-2018 09:58:42 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Feb-2018 09:58:42 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Feb-2018 09:58:42 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Feb-2018 09:58:42 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Feb-2018 09:59:04 UTC] PHP Notice:  Undefined variable: theme_opts in C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php on line 13
+[24-Feb-2018 09:59:04 UTC] PHP Stack trace:
+[24-Feb-2018 09:59:04 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Feb-2018 09:59:04 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Feb-2018 09:59:04 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Feb-2018 09:59:04 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Feb-2018 09:59:05 UTC] PHP Notice:  Undefined variable: theme_opts in C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php on line 13
+[24-Feb-2018 09:59:05 UTC] PHP Stack trace:
+[24-Feb-2018 09:59:05 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Feb-2018 09:59:05 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Feb-2018 09:59:05 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Feb-2018 09:59:05 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Feb-2018 09:59:07 UTC] PHP Notice:  Undefined variable: theme_opts in C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php on line 9
+[24-Feb-2018 09:59:07 UTC] PHP Stack trace:
+[24-Feb-2018 09:59:07 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Feb-2018 09:59:07 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Feb-2018 09:59:07 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Feb-2018 09:59:07 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Feb-2018 09:59:07 UTC] PHP Notice:  Undefined variable: theme_opts in C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php on line 14
+[24-Feb-2018 09:59:07 UTC] PHP Stack trace:
+[24-Feb-2018 09:59:07 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Feb-2018 09:59:07 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Feb-2018 09:59:07 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Feb-2018 09:59:07 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Feb-2018 09:59:08 UTC] PHP Notice:  Undefined variable: theme_opts in C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php on line 9
+[24-Feb-2018 09:59:08 UTC] PHP Stack trace:
+[24-Feb-2018 09:59:08 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Feb-2018 09:59:08 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Feb-2018 09:59:08 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Feb-2018 09:59:08 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Feb-2018 09:59:08 UTC] PHP Notice:  Undefined variable: theme_opts in C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php on line 14
+[24-Feb-2018 09:59:08 UTC] PHP Stack trace:
+[24-Feb-2018 09:59:08 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Feb-2018 09:59:08 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Feb-2018 09:59:08 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Feb-2018 09:59:08 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Feb-2018 09:59:09 UTC] PHP Notice:  Undefined variable: theme_opts in C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php on line 9
+[24-Feb-2018 09:59:09 UTC] PHP Stack trace:
+[24-Feb-2018 09:59:09 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Feb-2018 09:59:09 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Feb-2018 09:59:09 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Feb-2018 09:59:09 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Feb-2018 09:59:09 UTC] PHP Notice:  Undefined variable: theme_opts in C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php on line 14
+[24-Feb-2018 09:59:09 UTC] PHP Stack trace:
+[24-Feb-2018 09:59:09 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Feb-2018 09:59:09 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Feb-2018 09:59:10 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Feb-2018 09:59:10 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Feb-2018 10:55:02 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 108
+[24-Feb-2018 10:55:02 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 108
+[24-Feb-2018 10:55:02 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 108
+[24-Feb-2018 10:55:04 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 108
+[24-Feb-2018 10:55:04 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 108
+[24-Feb-2018 10:55:05 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 108
+[24-Feb-2018 10:59:42 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 115
+[24-Feb-2018 11:39:01 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\build-options-page.php on line 21
+[24-Feb-2018 12:26:33 UTC] PHP Parse error:  syntax error, unexpected '$theme_opts' (T_VARIABLE) in C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php on line 15
+[24-Feb-2018 12:26:34 UTC] PHP Parse error:  syntax error, unexpected '$theme_opts' (T_VARIABLE) in C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php on line 15
+[24-Feb-2018 12:31:58 UTC] PHP Parse error:  syntax error, unexpected ''wp_default_scripts'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 102
+[24-Feb-2018 12:31:58 UTC] PHP Parse error:  syntax error, unexpected ''wp_default_scripts'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 102
+[24-Feb-2018 12:31:58 UTC] PHP Parse error:  syntax error, unexpected ''wp_default_scripts'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 102
+[24-Feb-2018 12:56:11 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 7
+[24-Feb-2018 12:56:11 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 7
+[24-Feb-2018 12:56:13 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 6
+[24-Feb-2018 12:56:14 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 6
+[24-Feb-2018 12:56:15 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 7
+[24-Feb-2018 12:56:15 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 7
+[24-Feb-2018 12:56:21 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 7
+[24-Feb-2018 12:56:22 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 7
+[24-Feb-2018 12:56:25 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 7
+[24-Feb-2018 12:56:26 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 7
+[24-Feb-2018 12:56:33 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 7
+[24-Feb-2018 12:56:33 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 7
+[24-Feb-2018 12:56:38 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 7
+[24-Feb-2018 12:56:39 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 7
+[24-Feb-2018 12:56:40 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 22
+[24-Feb-2018 12:56:40 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 22
+[24-Feb-2018 12:56:44 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 23
+[24-Feb-2018 12:56:45 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 23
+[24-Feb-2018 12:56:47 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 8
+[24-Feb-2018 12:56:48 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 8
+[24-Feb-2018 12:56:49 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 8
+[24-Feb-2018 12:56:50 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 8
+[24-Feb-2018 12:56:51 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 8
+[24-Feb-2018 12:56:55 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 8
+[24-Feb-2018 12:56:56 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 8
+[24-Feb-2018 12:57:02 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 8
+[24-Feb-2018 12:57:02 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 8
+[24-Feb-2018 12:57:04 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 8
+[24-Feb-2018 12:57:04 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 8
+[24-Feb-2018 12:57:06 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 23
+[24-Feb-2018 12:57:06 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 23
+[24-Feb-2018 12:57:12 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 24
+[24-Feb-2018 12:57:13 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 24
+[24-Feb-2018 12:57:14 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 24
+[24-Feb-2018 12:57:14 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 24
+[24-Feb-2018 12:57:17 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 9
+[24-Feb-2018 12:57:18 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 9
+[24-Feb-2018 12:57:19 UTC] PHP Parse error:  syntax error, unexpected '<', expecting ':' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 9
+[24-Feb-2018 12:57:19 UTC] PHP Parse error:  syntax error, unexpected '<', expecting ':' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 9
+[24-Feb-2018 12:57:21 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 9
+[24-Feb-2018 12:57:24 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 9
+[24-Feb-2018 12:57:24 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 9
+[24-Feb-2018 12:57:26 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 24
+[24-Feb-2018 12:57:27 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 24
+[24-Feb-2018 12:57:28 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 25
+[24-Feb-2018 12:57:28 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 25
+[24-Feb-2018 12:57:57 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 26
+[24-Feb-2018 12:57:58 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 26
+[24-Feb-2018 12:58:01 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 26
+[24-Feb-2018 12:58:02 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 26
+[24-Feb-2018 12:58:05 UTC] PHP Parse error:  syntax error, unexpected '<', expecting ';' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 19
+[24-Feb-2018 12:58:06 UTC] PHP Parse error:  syntax error, unexpected '<', expecting ';' in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 19
+[24-Feb-2018 12:58:09 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 19
+[24-Feb-2018 12:58:10 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 19
+[24-Feb-2018 13:52:02 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 14
+[24-Feb-2018 13:52:03 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 14
+[24-Feb-2018 13:52:03 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 14
+[24-Feb-2018 13:59:55 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 14
+[24-Feb-2018 13:59:55 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\laragon\www\devkick\wp-content\themes\devkick\footer.php on line 14
+[24-Feb-2018 15:59:12 UTC] PHP Parse error:  syntax error, unexpected '$theme_opts' (T_VARIABLE), expecting ',' or ';' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\build-options-page.php on line 52
+[24-Feb-2018 16:06:46 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\build-options-page.php on line 46
+[24-Feb-2018 16:14:49 UTC] PHP Parse error:  syntax error, unexpected '$theme_opts' (T_VARIABLE), expecting ',' or ';' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\build-options-page.php on line 52
+[24-Feb-2018 16:29:36 UTC] PHP Notice:  Use of undefined constant ecxesc_textarea - assumed 'ecxesc_textarea' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\build-options-page.php on line 52
+[24-Feb-2018 16:29:36 UTC] PHP Stack trace:
+[24-Feb-2018 16:29:36 UTC] PHP   1. {main}() C:\laragon\www\devkick\wp-admin\admin.php:0
+[24-Feb-2018 16:29:36 UTC] PHP   2. do_action() C:\laragon\www\devkick\wp-admin\admin.php:224
+[24-Feb-2018 16:29:36 UTC] PHP   3. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[24-Feb-2018 16:29:36 UTC] PHP   4. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[24-Feb-2018 16:29:36 UTC] PHP   5. devkick_build_options_page() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[24-Feb-2018 16:29:40 UTC] PHP Notice:  Use of undefined constant esc_textarea - assumed 'esc_textarea' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\build-options-page.php on line 52
+[24-Feb-2018 16:29:40 UTC] PHP Stack trace:
+[24-Feb-2018 16:29:40 UTC] PHP   1. {main}() C:\laragon\www\devkick\wp-admin\admin.php:0
+[24-Feb-2018 16:29:40 UTC] PHP   2. do_action() C:\laragon\www\devkick\wp-admin\admin.php:224
+[24-Feb-2018 16:29:40 UTC] PHP   3. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[24-Feb-2018 16:29:40 UTC] PHP   4. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[24-Feb-2018 16:29:40 UTC] PHP   5. devkick_build_options_page() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[24-Feb-2018 16:29:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function esc_textarea(), 0 passed in C:\laragon\www\devkick\wp-content\themes\devkick\includes\build-options-page.php on line 52 and exactly 1 expected in C:\laragon\www\devkick\wp-includes\formatting.php:4001
+Stack trace:
+#0 C:\laragon\www\devkick\wp-content\themes\devkick\includes\build-options-page.php(52): esc_textarea()
+#1 C:\laragon\www\devkick\wp-includes\class-wp-hook.php(286): devkick_build_options_page('')
+#2 C:\laragon\www\devkick\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\devkick\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\laragon\www\devkick\wp-admin\admin.php(224): do_action('toplevel_page_d...')
+#5 {main}
+  thrown in C:\laragon\www\devkick\wp-includes\formatting.php on line 4001
+[24-Feb-2018 16:32:13 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\build-options-page.php on line 52
+[24-Feb-2018 16:36:38 UTC] PHP Parse error:  syntax error, unexpected '$theme_opts' (T_VARIABLE), expecting ',' or ';' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\build-options-page.php on line 52

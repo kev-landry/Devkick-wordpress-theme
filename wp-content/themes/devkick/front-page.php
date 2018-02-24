@@ -4,16 +4,15 @@
                 <div class="container">
                     <div class="columns">
                         <div class="header-left column is-two-thirds">
+                            <?php $theme_opts = get_option('devkick_opts'); ?>
                             <h1 class="title is-3">Bienvenu sur KevToDev</h1>
-                            <p class="subtitle is-5">27 ans, actuellement en alternance en tant que developpeur web et passionné par les nouvelles
-                                technologies, notamment du web et de l'IA. Ici tu trouveraa ce que j'apprend au fil de mon
-                                apprentissage et découverte sous forme d'articles/tutos. Je ferai donc en sorte, à mon échelle,
-                                de leur rendre la pareille via ce blog .
+                            <p class="subtitle is-5">
+                                <?php echo stripslashes($theme_opts['legend_01']); ?>
                             </p>
                         </div>
                         <div class="header-right column">
-                            <figure class="image is-256x256">
-                                <img src="//devkick.loc:3000/wp-content/uploads/2018/01/cercle_moi.jpg" alt="avatar">
+                            <figure class="image-options is-256x256">
+                                    <img src="<?php echo $theme_opts['image_01_url'];?>" alt="avatar">
                             </figure>
                         </div>
                     </div>

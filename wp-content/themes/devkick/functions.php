@@ -96,6 +96,20 @@ function devkick_admin_menus() {
 }
 add_action( 'admin_menu', 'devkick_admin_menus');
 
+function devkick_widgets_init() {
+    register_sidebar( array(
+        'name'          => 'Footer Widget Zone',
+        'description'   => 'Widgets shown in the footer: max 4',
+        'id'            => 'widgetized-footer',
+        'before_widget' => '<div id="%1$s" class="  %2$s"><div class="inside-widget">',
+        'after_widget'  => '</div></div>',
+        'before_title'  => '<h2 class ="h3 text-center">',
+        'after_title'   => '</h2>',
+        )
+    );
+}
+add_action('widgets_init', 'devkick_widgets_init');
+
 // remove jquery migrate
 add_action( 'wp_default_scripts', function( $scripts ) {
     if ( ! empty( $scripts->registered['jquery'] ) ) {
@@ -103,3 +117,12 @@ add_action( 'wp_default_scripts', function( $scripts ) {
     }
 } );
 
+function my_images_sizes($sizes) {
+    $addsizes = array(
+        "medium_large" => "Medium Large"
+    );
+
+    $newsizes = array_merge($sizes,$addsizes);
+    return $newsizes;
+}
+add_filter('image_size_names_choose', 'my_images_sizes');
