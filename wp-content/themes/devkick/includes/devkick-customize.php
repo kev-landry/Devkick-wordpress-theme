@@ -6,6 +6,41 @@
  * @since Devkick 0.6
  */
 class Devkick_Customize {
+
+    /*
+    * @param $color_code
+    * @param int $percentage_adjuster
+    * @return array|string
+    * @author Jaspreet Chahal
+    */
+   public static function adjust_color($color_code,$percentage_adjuster = 0) {
+       $percentage_adjuster = round($percentage_adjuster/100,2);
+       if(is_array($color_code)) {
+           $r = $color_code["r"] - (round($color_code["r"])*$percentage_adjuster);
+           $g = $color_code["g"] - (round($color_code["g"])*$percentage_adjuster);
+           $b = $color_code["b"] - (round($color_code["b"])*$percentage_adjuster);
+
+           return array("r"=> round(max(0,min(255,$r))),
+               "g"=> round(max(0,min(255,$g))),
+               "b"=> round(max(0,min(255,$b))));
+       }
+       else if(preg_match("/#/",$color_code)) {
+           $hex = str_replace("#","",$color_code);
+           $r = (strlen($hex) == 3)? hexdec(substr($hex,0,1).substr($hex,0,1)):hexdec(substr($hex,0,2));
+           $g = (strlen($hex) == 3)? hexdec(substr($hex,1,1).substr($hex,1,1)):hexdec(substr($hex,2,2));
+           $b = (strlen($hex) == 3)? hexdec(substr($hex,2,1).substr($hex,2,1)):hexdec(substr($hex,4,2));
+           $r = round($r - ($r*$percentage_adjuster));
+           $g = round($g - ($g*$percentage_adjuster));
+           $b = round($b - ($b*$percentage_adjuster));
+
+           return "#".str_pad(dechex( max(0,min(255,$r)) ),2,"0",STR_PAD_LEFT)
+               .str_pad(dechex( max(0,min(255,$g)) ),2,"0",STR_PAD_LEFT)
+               .str_pad(dechex( max(0,min(255,$b)) ),2,"0",STR_PAD_LEFT);
+
+       }
+   }
+
+
    /**
     * This hooks into 'customize_register' (available as of WP 3.4) and allows
     * you to add new sections and controls to the Theme Customize screen.
@@ -32,7 +67,7 @@ class Devkick_Customize {
       //2. Register new settings to the WP database...
       $wp_customize->add_setting( 'hero_background_color', //No need to use a SERIALIZED name, as `theme_mod` settings already live under one db record
          array(
-            'default'    => '#fff', //Default setting/value to save
+            'default'    => '#3c4556', //Default setting/value to save
             'type'       => 'theme_mod', //Is this an 'option' or a 'theme_mod'?
             'capability' => 'edit_theme_options', //Optional. Special permissions for accessing this setting.
             'transport'  => 'postMessage', //What triggers a refresh of the setting? 'refresh' or 'postMessage' (instant)?
@@ -67,12 +102,11 @@ class Devkick_Customize {
     * @since MyTheme 1.0
     */
    public static function header_output() {
+     $adjusted_color = self::adjust_color('#d6d', 5);
       ?>
       <!--Customizer CSS-->
       <style type="text/css">
-           <?php self::generate_css('#site-title a', 'color', 'header_textcolor', '#'); ?>
-           <?php self::generate_css('body', 'background-color', 'hero_background_color', '#'); ?>
-           <?php self::generate_css('a', 'color', 'link_textcolor'); ?>
+           <?php self::generate_css('.main-header', 'background', 'hero_background_color', 'linear-gradient(62deg,', ', '.$adjusted_color.')'); ?>
       </style>
       <!--/Customizer CSS-->
       <?php
@@ -117,6 +151,7 @@ class Devkick_Customize {
       $return = '';
       $mod = get_theme_mod($mod_name);
       if ( ! empty( $mod ) ) {
+
          $return = sprintf('%s { %s:%s; }',
             $selector,
             $style,
@@ -128,6 +163,7 @@ class Devkick_Customize {
       }
       return $return;
     }
+
 }
 
 // Setup the Theme Customizer settings and controls...
