@@ -96,20 +96,6 @@ function devkick_admin_menus() {
 }
 add_action( 'admin_menu', 'devkick_admin_menus');
 
-function devkick_widgets_init() {
-    register_sidebar( array(
-        'name'          => 'Footer Widget Zone',
-        'description'   => 'Widgets shown in the footer: max 4',
-        'id'            => 'widgetized-footer',
-        'before_widget' => '<div id="%1$s" class="  %2$s"><div class="inside-widget">',
-        'after_widget'  => '</div></div>',
-        'before_title'  => '<h2 class ="h3 text-center">',
-        'after_title'   => '</h2>',
-        )
-    );
-}
-add_action('widgets_init', 'devkick_widgets_init');
-
 // remove jquery migrate
 add_action( 'wp_default_scripts', function( $scripts ) {
     if ( ! empty( $scripts->registered['jquery'] ) ) {
@@ -126,3 +112,28 @@ function my_images_sizes($sizes) {
     return $newsizes;
 }
 add_filter('image_size_names_choose', 'my_images_sizes');
+
+//
+// ─── CUSTOMIZE APPEARENCE SETTINGS ──────────────────────────────────────────────
+//
+
+include('includes/devkick-customize.php');
+
+// add_action( 'customize_register', 'devkick_customize_register' );
+
+// function devkick_customize_register( $wp_customize ) {
+//     //All our sections, settings, and controls will be added here
+//     $wp_customize->add_section( 'mytheme_new_section_name' , array(
+//         'title'      => __( 'Visible Section Name', 'mytheme' ),
+//         'priority'   => 30,
+//     ) );
+//     $wp_customize->add_setting( 'header_textcolor' , array(
+//         'default'   => '#000000',
+//         'transport' => 'refresh',
+//     ) );
+//     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'link_color', array(
+//         'label'      => __( 'Header Color', 'mytheme' ),
+//         'section'    => 'your_section_id',
+//         'settings'   => 'your_setting_id',
+//     ) ) );
+//  }
