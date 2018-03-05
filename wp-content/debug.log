@@ -1285,3 +1285,4 @@ Stack trace:
 [04-Mar-2018 21:59:25 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
 [04-Mar-2018 21:59:25 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
 [04-Mar-2018 21:59:25 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[05-Mar-2018 13:38:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in C:\laragon\www\Devkick-wordpress-theme\wp-includes\wp-db.php on line 1531

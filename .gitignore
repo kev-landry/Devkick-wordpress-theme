@@ -8,6 +8,7 @@ wp-content/cache
 wp-content/w3tc-config/
 wp-content/advanced-cache.php
 wp-config-sample.php
+wp-content/debug.log
 .sass-cache
 node_modules
 .DS_Store
