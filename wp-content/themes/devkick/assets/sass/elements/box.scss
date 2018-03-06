@@ -1,1 +1,8 @@
 @import "../../../node_modules/bulma/sass/elements/box.sass";
+
+.article-box {
+    transition: box-shadow 0.5s;
+    &:hover {
+        box-shadow: 0px 10px 20px 5px rgba(150, 147, 147, 0.466), 0px 0px rgba(150, 147, 147, 0.466);
+    }
+}

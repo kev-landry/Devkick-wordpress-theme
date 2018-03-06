@@ -19,7 +19,7 @@
                 </div>
             </div>
         </header>
-        <section class="section">
+        <section class="section article-section">
             <div class="container">
                 <div class="columns">
 

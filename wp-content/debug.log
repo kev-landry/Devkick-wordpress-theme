@@ -1297,3 +1297,24 @@ Stack trace:
 [05-Mar-2018 15:48:14 UTC] PHP Notice:  Use of undefined constant has_post_thumbnail - assumed 'has_post_thumbnail' in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\content-article.php on line 4
 [05-Mar-2018 15:48:14 UTC] PHP Notice:  Use of undefined constant has_post_thumbnail - assumed 'has_post_thumbnail' in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\content-article.php on line 4
 [05-Mar-2018 15:48:14 UTC] PHP Notice:  Use of undefined constant has_post_thumbnail - assumed 'has_post_thumbnail' in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\content-article.php on line 4
+[06-Mar-2018 14:31:04 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 14:31:10 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 14:31:33 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 14:31:40 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 14:36:32 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 14:42:24 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 14:42:31 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 14:47:11 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 14:47:30 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 14:49:45 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 14:53:34 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 15:15:11 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 15:15:12 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 15:18:19 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 15:19:14 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 15:40:47 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 15:40:47 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 15:40:54 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 15:41:52 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 16:27:37 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 16:28:54 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
