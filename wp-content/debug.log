@@ -1318,3 +1318,233 @@ Stack trace:
 [06-Mar-2018 15:41:52 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
 [06-Mar-2018 16:27:37 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
 [06-Mar-2018 16:28:54 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 20:37:00 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\devkick\wp-includes\wp-db.php on line 1531
+[06-Mar-2018 20:37:00 UTC] PHP Stack trace:
+[06-Mar-2018 20:37:00 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 20:37:00 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 20:37:00 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:13
+[06-Mar-2018 20:37:00 UTC] PHP   4. require_once() C:\laragon\www\devkick\wp-load.php:37
+[06-Mar-2018 20:37:00 UTC] PHP   5. require_once() C:\laragon\www\devkick\wp-config.php:96
+[06-Mar-2018 20:37:00 UTC] PHP   6. require_wp_db() C:\laragon\www\devkick\wp-settings.php:106
+[06-Mar-2018 20:37:00 UTC] PHP   7. wpdb->__construct() C:\laragon\www\devkick\wp-includes\load.php:404
+[06-Mar-2018 20:37:00 UTC] PHP   8. wpdb->db_connect() C:\laragon\www\devkick\wp-includes\wp-db.php:592
+[06-Mar-2018 20:37:00 UTC] PHP   9. mysqli_real_connect() C:\laragon\www\devkick\wp-includes\wp-db.php:1531
+[06-Mar-2018 20:39:09 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 20:39:09 UTC] PHP Stack trace:
+[06-Mar-2018 20:39:09 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 20:39:09 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 20:39:09 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 20:39:09 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 20:39:09 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[06-Mar-2018 20:39:09 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 20:39:09 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 20:39:09 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 20:39:09 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 20:39:09 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 20:39:09 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 20:39:09 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 20:39:09 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 20:41:25 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 20:41:25 UTC] PHP Stack trace:
+[06-Mar-2018 20:41:25 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 20:41:25 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 20:41:25 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 20:41:25 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 20:41:25 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[06-Mar-2018 20:41:25 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 20:41:25 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 20:41:25 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 20:41:25 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 20:41:25 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 20:41:25 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 20:41:25 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 20:41:25 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 20:42:26 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 20:42:26 UTC] PHP Stack trace:
+[06-Mar-2018 20:42:26 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 20:42:26 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 20:42:26 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 20:42:26 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 20:42:26 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[06-Mar-2018 20:42:26 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 20:42:26 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 20:42:26 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 20:42:26 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 20:42:26 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 20:42:26 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 20:42:26 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 20:42:26 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 20:44:24 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 20:44:24 UTC] PHP Stack trace:
+[06-Mar-2018 20:44:24 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 20:44:24 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 20:44:24 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 20:44:24 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 20:44:24 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[06-Mar-2018 20:44:24 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 20:44:24 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 20:44:24 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 20:44:24 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 20:44:24 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 20:44:24 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 20:44:24 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 20:44:24 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 20:47:12 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 20:47:12 UTC] PHP Stack trace:
+[06-Mar-2018 20:47:12 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 20:47:12 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 20:47:12 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 20:47:12 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 20:47:12 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[06-Mar-2018 20:47:12 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 20:47:12 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 20:47:12 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 20:47:12 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 20:47:12 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 20:47:12 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 20:47:12 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 20:47:12 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 20:48:07 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 20:48:07 UTC] PHP Stack trace:
+[06-Mar-2018 20:48:07 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 20:48:07 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 20:48:07 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 20:48:07 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 20:48:07 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\single.php:3
+[06-Mar-2018 20:48:07 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 20:48:07 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 20:48:07 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 20:48:07 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 20:48:07 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 20:48:07 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 20:48:07 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 20:48:07 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 20:48:21 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 20:48:21 UTC] PHP Stack trace:
+[06-Mar-2018 20:48:21 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 20:48:21 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 20:48:21 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 20:48:21 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 20:48:21 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\single.php:3
+[06-Mar-2018 20:48:21 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 20:48:21 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 20:48:21 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 20:48:21 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 20:48:21 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 20:48:21 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 20:48:21 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 20:48:21 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 20:51:32 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 20:51:32 UTC] PHP Stack trace:
+[06-Mar-2018 20:51:32 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 20:51:32 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 20:51:32 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 20:51:32 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 20:51:32 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[06-Mar-2018 20:51:32 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 20:51:32 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 20:51:32 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 20:51:32 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 20:51:32 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 20:51:32 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 20:51:32 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 20:51:32 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 20:56:35 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 20:56:35 UTC] PHP Stack trace:
+[06-Mar-2018 20:56:35 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 20:56:35 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 20:56:35 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 20:56:35 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 20:56:35 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[06-Mar-2018 20:56:35 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 20:56:35 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 20:56:35 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 20:56:35 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 20:56:35 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 20:56:35 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 20:56:36 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 20:56:36 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 21:03:15 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 109
+[06-Mar-2018 21:03:15 UTC] PHP Stack trace:
+[06-Mar-2018 21:03:15 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 21:03:15 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 21:03:15 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 21:03:15 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 21:03:15 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[06-Mar-2018 21:03:15 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 21:03:15 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 21:03:15 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 21:03:15 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 21:03:15 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 21:03:15 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 21:03:15 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 21:03:15 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 21:06:24 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 77
+[06-Mar-2018 21:06:24 UTC] PHP Stack trace:
+[06-Mar-2018 21:06:24 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 21:06:24 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 21:06:24 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 21:06:24 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 21:06:24 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[06-Mar-2018 21:06:24 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 21:06:24 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 21:06:24 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 21:06:24 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 21:06:24 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 21:06:24 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 21:06:24 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 21:06:24 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 21:06:26 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 76
+[06-Mar-2018 21:06:26 UTC] PHP Stack trace:
+[06-Mar-2018 21:06:26 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 21:06:26 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 21:06:26 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 21:06:26 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 21:06:26 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[06-Mar-2018 21:06:26 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 21:06:26 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 21:06:26 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 21:06:26 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 21:06:26 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 21:06:26 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 21:06:26 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 21:06:26 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 21:06:28 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 75
+[06-Mar-2018 21:06:28 UTC] PHP Stack trace:
+[06-Mar-2018 21:06:28 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 21:06:28 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 21:06:28 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 21:06:28 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 21:06:28 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[06-Mar-2018 21:06:28 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 21:06:28 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 21:06:28 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 21:06:28 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 21:06:28 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 21:06:28 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 21:06:28 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 21:06:28 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 21:06:42 UTC] PHP Notice:  Undefined variable: adjusted_color in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 74
+[06-Mar-2018 21:06:42 UTC] PHP Stack trace:
+[06-Mar-2018 21:06:42 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[06-Mar-2018 21:06:42 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[06-Mar-2018 21:06:42 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[06-Mar-2018 21:06:42 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[06-Mar-2018 21:06:42 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[06-Mar-2018 21:06:42 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[06-Mar-2018 21:06:42 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[06-Mar-2018 21:06:42 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[06-Mar-2018 21:06:42 UTC] PHP   9. wp_head() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:16
+[06-Mar-2018 21:06:42 UTC] PHP  10. do_action() C:\laragon\www\devkick\wp-includes\general-template.php:2614
+[06-Mar-2018 21:06:42 UTC] PHP  11. WP_Hook->do_action() C:\laragon\www\devkick\wp-includes\plugin.php:453
+[06-Mar-2018 21:06:42 UTC] PHP  12. WP_Hook->apply_filters() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:310
+[06-Mar-2018 21:06:42 UTC] PHP  13. Devkick_Customize::header_output() C:\laragon\www\devkick\wp-includes\class-wp-hook.php:286
+[06-Mar-2018 21:07:07 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 74
+[06-Mar-2018 21:08:15 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 74
+[06-Mar-2018 21:10:14 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 74
+[06-Mar-2018 21:12:14 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 74
+[06-Mar-2018 21:14:14 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 74
+[06-Mar-2018 21:16:14 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 74
+[06-Mar-2018 21:18:14 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 74
+[06-Mar-2018 21:18:53 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 74
+[06-Mar-2018 21:19:46 UTC] PHP Parse error:  syntax error, unexpected ''); ?>' (T_CONSTANT_ENCAPSED_STRING) in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 82

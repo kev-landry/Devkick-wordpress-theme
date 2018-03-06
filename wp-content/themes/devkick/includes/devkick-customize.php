@@ -7,40 +7,6 @@
  */
 class Devkick_Customize {
 
-    /*
-    * @param $color_code
-    * @param int $percentage_adjuster
-    * @return array|string
-    * @author Jaspreet Chahal
-    */
-//    public static function adjust_color($color_code,$percentage_adjuster = 0) {
-//        $percentage_adjuster = round($percentage_adjuster/100,2);
-//        if(is_array($color_code)) {
-//            $r = $color_code["r"] - (round($color_code["r"])*$percentage_adjuster);
-//            $g = $color_code["g"] - (round($color_code["g"])*$percentage_adjuster);
-//            $b = $color_code["b"] - (round($color_code["b"])*$percentage_adjuster);
-
-//            return array("r"=> round(max(0,min(255,$r))),
-//                "g"=> round(max(0,min(255,$g))),
-//                "b"=> round(max(0,min(255,$b))));
-//        }
-//        else if(preg_match("/#/",$color_code)) {
-//            $hex = str_replace("#","",$color_code);
-//            $r = (strlen($hex) == 3)? hexdec(substr($hex,0,1).substr($hex,0,1)):hexdec(substr($hex,0,2));
-//            $g = (strlen($hex) == 3)? hexdec(substr($hex,1,1).substr($hex,1,1)):hexdec(substr($hex,2,2));
-//            $b = (strlen($hex) == 3)? hexdec(substr($hex,2,1).substr($hex,2,1)):hexdec(substr($hex,4,2));
-//            $r = round($r - ($r*$percentage_adjuster));
-//            $g = round($g - ($g*$percentage_adjuster));
-//            $b = round($b - ($b*$percentage_adjuster));
-
-//            return "#".str_pad(dechex( max(0,min(255,$r)) ),2,"0",STR_PAD_LEFT)
-//                .str_pad(dechex( max(0,min(255,$g)) ),2,"0",STR_PAD_LEFT)
-//                .str_pad(dechex( max(0,min(255,$b)) ),2,"0",STR_PAD_LEFT);
-
-//        }
-//    }
-
-
    /**
     * This hooks into 'customize_register' (available as of WP 3.4) and allows
     * you to add new sections and controls to the Theme Customize screen.
@@ -65,7 +31,7 @@ class Devkick_Customize {
       );
 
       //2. Register new settings to the WP database...
-      $wp_customize->add_setting( 'hero_background_color', //No need to use a SERIALIZED name, as `theme_mod` settings already live under one db record
+      $wp_customize->add_setting( 'hero_background_color_1', //No need to use a SERIALIZED name, as `theme_mod` settings already live under one db record
          array(
             'default'    => '#3c4556', //Default setting/value to save
             'type'       => 'theme_mod', //Is this an 'option' or a 'theme_mod'?
@@ -74,17 +40,37 @@ class Devkick_Customize {
          )
       );
 
+      $wp_customize->add_setting( 'hero_background_color_2',
+         array(
+            'default'    => '#282a36',
+            'type'       => 'theme_mod',
+            'capability' => 'edit_theme_options',
+            'transport'  => 'postMessage',
+         )
+      );
+
+
       //3. Finally, we define the control itself (which links a setting to a section and renders the HTML controls)...
       $wp_customize->add_control( new WP_Customize_Color_Control( //Instantiate the color control class
          $wp_customize, //Pass the $wp_customize object (required)
-         'hero_background_color', //Set a unique ID for the control
+         'hero_background_color_1', //Set a unique ID for the control
          array(
             'label'      => __( 'Background Color', 'mytheme' ), //Admin-visible name of the control
-            'settings'   => 'hero_background_color', //Which setting to load and manipulate (serialized is okay)
+            'settings'   => 'hero_background_color_1', //Which setting to load and manipulate (serialized is okay)
             'priority'   => 10, //Determines the order this control appears in for the specified section
             'section'    => 'devkick_options', //ID of the section this control should render in
          )
       ) );
+      $wp_customize->add_control( new WP_Customize_Color_Control(
+        $wp_customize,
+        'hero_background_color_2',
+        array(
+           'label'      => __( 'Background Color', 'mytheme' ),
+           'settings'   => 'hero_background_color_2',
+           'priority'   => 10,
+           'section'    => 'devkick_options',
+        )
+     ) );
 
       //4. We can also change built-in settings by modifying properties. For instance, let's make some stuff use live preview JS...
       // $wp_customize->get_setting( 'blogname' )->transport = 'postMessage';
@@ -102,11 +88,13 @@ class Devkick_Customize {
     * @since MyTheme 1.0
     */
    public static function header_output() {
-    //  $adjusted_color = self::adjust_color('#d6d', 5);
       ?>
       <!--Customizer CSS-->
       <style type="text/css">
-           <?php self::generate_css('.main-header', 'background', 'hero_background_color', 'linear-gradient(62deg,', ', '.$adjusted_color.')'); ?>
+           /* <?php self::generate_css('.main-header', 'background', 'hero_background_color_1', 'linear-gradient(62deg,', ', #282b36)'); ?> */
+           <?php
+            self::generate_gradient('.main-header', 'background', 'hero_background_color_1', 'hero_background_color_2');
+           ?>
       </style>
       <!--/Customizer CSS-->
       <?php
@@ -156,6 +144,25 @@ class Devkick_Customize {
             $selector,
             $style,
             $prefix.$mod.$postfix
+         );
+         if ( $echo ) {
+            echo $return;
+         }
+      }
+      return $return;
+    }
+
+    public static function generate_gradient($selector, $style, $mod_from, $mod_to, $echo=true) {
+      $return = '';
+      $mod_from = get_theme_mod($mod_from);
+      $mod_to = get_theme_mod($mod_to);
+
+      if ( ! empty( $mod_from ) && ! empty( $mod_to ) ) {
+
+         $return = sprintf('%s { %s:%s; }',
+            $selector,
+            $style,
+            'linear-gradient(62deg, '.$mod_from.', '.$mod_to.')'
          );
          if ( $echo ) {
             echo $return;
