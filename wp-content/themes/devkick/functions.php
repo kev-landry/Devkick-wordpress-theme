@@ -77,6 +77,15 @@ function devkick_activ_options() {
         ];
         add_option('devkick_opts', $opts);
     }
+    function my_images_sizes($sizes) {
+        $addsizes = array(
+            "medium_large" => "Medium Large"
+        );
+    
+        $newsizes = array_merge($sizes,$addsizes);
+        return $newsizes;
+    }
+    add_filter('image_size_names_choose', 'my_images_sizes');
 }
 add_action( 'after_switch_theme', 'devkick_activ_options');
 
@@ -103,15 +112,7 @@ add_action( 'wp_default_scripts', function( $scripts ) {
     }
 } );
 
-function my_images_sizes($sizes) {
-    $addsizes = array(
-        "medium_large" => "Medium Large"
-    );
 
-    $newsizes = array_merge($sizes,$addsizes);
-    return $newsizes;
-}
-add_filter('image_size_names_choose', 'my_images_sizes');
 
 //
 // ─── CUSTOMIZE APPEARENCE SETTINGS ──────────────────────────────────────────────
