@@ -1261,6 +1261,7 @@ article a{display:block;text-align:center;width:100%}
 .tutorials.current i,.tutorials:hover i{color:#4cbbf9}
 .snippets.current i,.snippets:hover i{color:#5eeda3}
 .about.current i,.about:hover i{color:#fdb54b}
+.current-menu-item{color:red;border-color:red}
 @media screen and (min-width:769px) and (max-width:1023px){.has-text-centered-tablet-only{text-align:center !important}
 .has-text-justified-tablet-only{text-align:justify !important}
 .has-text-left-tablet-only{text-align:left !important}
