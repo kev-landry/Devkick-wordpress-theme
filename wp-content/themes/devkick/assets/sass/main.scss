@@ -28,3 +28,19 @@ article p {
 .article-section {
     background-color: #f8f8f9;
 }
+
+.home.current i,.home:hover i {
+    color: #fdb54b
+}
+
+.tutorials.current i,.tutorials:hover i {
+    color: #4cbbf9
+}
+
+.snippets.current i,.snippets:hover i {
+    color: #5eeda3
+}
+
+.about.current i,.about:hover i {
+    color: #fdb54b
+}

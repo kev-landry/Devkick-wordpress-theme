@@ -1,6 +1,6 @@
 .main-header {
     background: linear-gradient(62deg,#3c4556, $nav-bg);
-    color: $light;
+    color: rgb(155, 151, 151);
     // width: 100%;
     //  .header-left{
 
@@ -10,5 +10,6 @@
     //  }
      .title{
          color: #fff;
+         font-size: 3em;
      }
 }

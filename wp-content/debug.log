@@ -1548,3 +1548,4 @@ Stack trace:
 [06-Mar-2018 21:18:14 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 74
 [06-Mar-2018 21:18:53 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 74
 [06-Mar-2018 21:19:46 UTC] PHP Parse error:  syntax error, unexpected ''); ?>' (T_CONSTANT_ENCAPSED_STRING) in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 82
+[07-Mar-2018 10:34:28 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in C:\laragon\www\Devkick-wordpress-theme\wp-includes\wp-db.php on line 1531

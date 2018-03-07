@@ -1,6 +1,17 @@
 console.log("Hello MAIN JS");
 
-// jQuery(document).ready(function($) {
-//     $("h1").css('color', "#f00");
-// });
+const currentUrl = window.location.pathname;
 
+console.log(currentUrl);
+
+function activeLink(currentUrl) {
+
+    switch (currentUrl) {
+        case value:
+            
+            break;
+    
+        default:
+            break;
+    }
+}
