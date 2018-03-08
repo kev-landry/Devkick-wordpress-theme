@@ -1549,3 +1549,41 @@ Stack trace:
 [06-Mar-2018 21:18:53 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 74
 [06-Mar-2018 21:19:46 UTC] PHP Parse error:  syntax error, unexpected ''); ?>' (T_CONSTANT_ENCAPSED_STRING) in C:\laragon\www\devkick\wp-content\themes\devkick\includes\devkick-customize.php on line 82
 [07-Mar-2018 10:34:28 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in C:\laragon\www\Devkick-wordpress-theme\wp-includes\wp-db.php on line 1531
+[08-Mar-2018 13:04:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function speed_stop_loading_wp_embed() in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php:55
+Stack trace:
+#0 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(286): devkick_init('')
+#1 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\laragon\www\Devkick-wordpress-theme\wp-settings.php(450): do_action('init')
+#4 C:\laragon\www\Devkick-wordpress-theme\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\Devkick-wordpress-theme\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\Devkick-wordpress-theme\wp-cron.php(33): require_once('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 55
+[08-Mar-2018 13:04:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function speed_stop_loading_wp_embed() in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php:55
+Stack trace:
+#0 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(286): devkick_init('')
+#1 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\laragon\www\Devkick-wordpress-theme\wp-settings.php(450): do_action('init')
+#4 C:\laragon\www\Devkick-wordpress-theme\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\Devkick-wordpress-theme\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\Devkick-wordpress-theme\wp-admin\admin-ajax.php(22): require_once('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 55
+[08-Mar-2018 13:04:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function speed_stop_loading_wp_embed() in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php:55
+Stack trace:
+#0 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(286): devkick_init('')
+#1 C:\laragon\www\Devkick-wordpress-theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\Devkick-wordpress-theme\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\laragon\www\Devkick-wordpress-theme\wp-settings.php(450): do_action('init')
+#4 C:\laragon\www\Devkick-wordpress-theme\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\Devkick-wordpress-theme\wp-load.php(37): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\Devkick-wordpress-theme\wp-admin\admin.php(31): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\Devkick-wordpress-theme\wp-admin\nav-menus.php(13): require_once('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\functions.php on line 55
+[08-Mar-2018 13:08:58 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes/devkick-menu-item-custom-fields.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\menu-item-custom-fields.php on line 54
+[08-Mar-2018 13:08:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes/devkick-menu-item-custom-fields.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\menu-item-custom-fields.php on line 54
+[08-Mar-2018 13:08:58 UTC] PHP Warning:  require_once(C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes/devkick-menu-item-custom-fields.php): failed to open stream: No such file or directory in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\menu-item-custom-fields.php on line 54
+[08-Mar-2018 13:08:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes/devkick-menu-item-custom-fields.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Devkick-wordpress-theme\wp-content\themes\devkick\includes\menu-item-custom-fields.php on line 54

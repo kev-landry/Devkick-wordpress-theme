@@ -34,6 +34,9 @@ function devkick_admin_init() {
         wp_enqueue_script( 'devkick-admin-js', get_template_directory_uri(). '/assets/js/devkick-options.js');
         wp_enqueue_style( 'fonts_css', 'https://fonts.googleapis.com/css?family=Nunito|Open+Sans|Roboto');
         wp_enqueue_media();
+        wp_enqueue_style( 'wp-color-picker' );
+        wp_enqueue_script( 'devkick-menu-color', get_template_directory_uri().'/assets/js/devkick-menu-color.js', array( 'wp-color-picker' ), false, true ); 
+
     }
     add_action('admin_enqueue_scripts', 'devkick_admin_scripts');
 
@@ -138,3 +141,17 @@ include('includes/devkick-customize.php');
 //         'settings'   => 'your_setting_id',
 //     ) ) );
 //  }
+
+function devkick_custom_icon_color() {
+    include('includes/menu-item-custom-fields.php');
+}
+add_action( 'init', 'devkick_custom_icon_color' );
+
+add_action( 'admin_enqueue_scripts', 'wptuts_add_color_picker' );
+function wptuts_add_color_picker( $hook ) {
+
+    // Add the color picker css file       
+         
+    // Include our custom jQuery file with WordPress Color Picker dependency
+
+}

@@ -11,8 +11,6 @@ class Devkick_Customize {
     * This hooks into 'customize_register' (available as of WP 3.4) and allows
     * you to add new sections and controls to the Theme Customize screen.
     *
-    * Note: To enable instant preview, we have to actually write a bit of custom
-    * javascript. See live_preview() for more.
     *
     * @see add_action('customize_register',$func)
     * @param \WP_Customize_Manager $wp_customize
@@ -59,6 +57,7 @@ class Devkick_Customize {
             'settings'   => 'hero_background_color_1', //Which setting to load and manipulate (serialized is okay)
             'priority'   => 10, //Determines the order this control appears in for the specified section
             'section'    => 'devkick_options', //ID of the section this control should render in
+            'sanitize_callback' => 'sanitize_hex_color'
          )
       ) );
       $wp_customize->add_control( new WP_Customize_Color_Control(
@@ -69,6 +68,7 @@ class Devkick_Customize {
            'settings'   => 'hero_background_color_2',
            'priority'   => 10,
            'section'    => 'devkick_options',
+           'sanitize_callback' => 'sanitize_hex_color'
         )
      ) );
 
