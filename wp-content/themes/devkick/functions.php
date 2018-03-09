@@ -35,6 +35,7 @@ function devkick_admin_init() {
         wp_enqueue_style( 'fonts_css', 'https://fonts.googleapis.com/css?family=Nunito|Open+Sans|Roboto');
         wp_enqueue_media();
         wp_enqueue_style( 'wp-color-picker' );
+        wp_enqueue_script( 'wp-color-picker' );
         wp_enqueue_script( 'devkick-menu-color', get_template_directory_uri().'/assets/js/devkick-menu-color.js', array( 'wp-color-picker' ), false, true ); 
 
     }

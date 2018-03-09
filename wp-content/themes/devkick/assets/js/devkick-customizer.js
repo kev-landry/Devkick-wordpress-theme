@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
     wp.customize( 'hero_background_color_1', 'hero_background_color_2', function(value1, value2) {
         color1 = value1.get();
         color2 = value2.get();
-        console.table(value1, value2);
         value1.bind(newValue1 => {
             color1 = newValue1;
             changeBg();

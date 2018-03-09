@@ -97,7 +97,7 @@ class Menu_Item_Custom_Fields_Example {
 			?>
 				<p class="description description-wide <?php echo esc_attr( $class ) ?>">
 					<?php printf(
-						'<label for="%1$s">%2$s<br /><input type="text" id="%1$s" class="color-icon widefat %1$s" name="%3$s" value="%4$s" /></label>',
+						'<label for="%1$s">%2$s<br /><input type="text" id="%1$s" class="wp-color-picker widefat %1$s" name="%3$s" value="%4$s" /></label>',
 						esc_attr( $id ),
 						esc_html( $label ),
 						esc_attr( $name ),

@@ -1,13 +1,9 @@
-(function( $ ) {
- 
-    // Add Color Picker to all inputs that have 'color-field' class
-    $(function() {
-        $('.color-field').wpColorPicker();
-    });
-     
-})( jQuery );
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    
+    let iconColor = document.getElementsByClassName('color-icon');
+    console.log(iconColor);
+    console.log(wpColorPicker());
+    iconColor.wpColorPicker();
 }, false);
