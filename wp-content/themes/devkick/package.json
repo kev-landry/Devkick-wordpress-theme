@@ -25,6 +25,6 @@
     "gulp-uglifycss": "^1.0.6",
     "gulp-sort": "^2.0.0",
     "gulp-wp-pot": "^1.2.2",
-    "bulma": "^0.6.2"
+    "bulma": "=0.6.2"
   }
 }

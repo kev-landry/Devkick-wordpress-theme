@@ -1,13 +1,18 @@
-<?php get_header(); ?>
-    <header class="hero is-bold main-header">
+<?php get_header();?>
+    <?php
+        $term = $wp_query->get_queried_object()->term_id;
+
+        $color = get_term_meta( $term, '_category_color', true );
+    ?>
+    <header class="hero is-bold" style="background-color:#<?php echo $color ?>">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title"><?php single_cat_title( '', true ); ?></h1>
-                <h3 class="subtitle"><?php echo category_description() ?></h3>
+                <h1 class="title has-text-centered"><?php single_cat_title( '', true );?></h1>
+                <h3 class="subtitle has-text-centered"><?php echo category_description() ?></h3>
             </div>
         </div>
     </header>
-    <section class="section">
+    <section class="section article-section">
             <div class="container">
                 <div class="columns">
 

@@ -1602,3 +1602,341 @@ Stack trace:
 [09-Mar-2018 14:20:04 UTC] PHP Notice:  wp_enqueue_style est appelée de la mauvaise manière. Les scripts et les styles ne peuvent pas être enregistrés ou ajoutés avant le déclenchement des crochets <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code> ou <code>login_enqueue_scripts</code>. Veuillez lire <a href="https://codex.wordpress.org/fr:Débogage_dans_WordPress">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 3.3.0.) in C:\laragon\www\Devkick-wordpress-theme\wp-includes\functions.php on line 4147
 [09-Mar-2018 14:20:04 UTC] PHP Notice:  wp_enqueue_script est appelée de la mauvaise manière. Les scripts et les styles ne peuvent pas être enregistrés ou ajoutés avant le déclenchement des crochets <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code> ou <code>login_enqueue_scripts</code>. Veuillez lire <a href="https://codex.wordpress.org/fr:Débogage_dans_WordPress">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 3.3.0.) in C:\laragon\www\Devkick-wordpress-theme\wp-includes\functions.php on line 4147
 [09-Mar-2018 14:20:04 UTC] PHP Notice:  wp_enqueue_script est appelée de la mauvaise manière. Les scripts et les styles ne peuvent pas être enregistrés ou ajoutés avant le déclenchement des crochets <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code> ou <code>login_enqueue_scripts</code>. Veuillez lire <a href="https://codex.wordpress.org/fr:Débogage_dans_WordPress">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 3.3.0.) in C:\laragon\www\Devkick-wordpress-theme\wp-includes\functions.php on line 4147
+[24-Mar-2018 15:56:43 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 159
+[24-Mar-2018 15:56:43 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 159
+[24-Mar-2018 17:21:51 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-content\themes\devkick\category.php on line 3
+[24-Mar-2018 17:21:51 UTC] PHP Stack trace:
+[24-Mar-2018 17:21:51 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Mar-2018 17:21:51 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Mar-2018 17:21:51 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Mar-2018 17:21:51 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Mar-2018 17:22:14 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-content\themes\devkick\category.php on line 3
+[24-Mar-2018 17:22:14 UTC] PHP Stack trace:
+[24-Mar-2018 17:22:14 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Mar-2018 17:22:14 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Mar-2018 17:22:14 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Mar-2018 17:22:14 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Mar-2018 17:23:29 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-content\themes\devkick\category.php on line 3
+[24-Mar-2018 17:23:29 UTC] PHP Stack trace:
+[24-Mar-2018 17:23:29 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Mar-2018 17:23:29 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Mar-2018 17:23:29 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Mar-2018 17:23:29 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Mar-2018 17:30:30 UTC] PHP Parse error:  syntax error, unexpected '$wp_query' (T_VARIABLE) in C:\laragon\www\devkick\wp-content\themes\devkick\category.php on line 5
+[24-Mar-2018 17:33:53 UTC] PHP Parse error:  syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\laragon\www\devkick\wp-content\themes\devkick\category.php on line 5
+[24-Mar-2018 17:34:26 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\laragon\www\devkick\wp-content\themes\devkick\category.php on line 5
+[24-Mar-2018 17:36:07 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-content\themes\devkick\category.php on line 3
+[24-Mar-2018 17:36:07 UTC] PHP Stack trace:
+[24-Mar-2018 17:36:07 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Mar-2018 17:36:07 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Mar-2018 17:36:07 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Mar-2018 17:36:07 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Mar-2018 17:38:50 UTC] PHP Parse error:  syntax error, unexpected 'var' (T_VAR), expecting end of file in C:\laragon\www\devkick\wp-content\themes\devkick\category.php on line 4
+[24-Mar-2018 18:45:13 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 165
+[24-Mar-2018 19:58:42 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 179
+[24-Mar-2018 19:59:22 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 179
+[24-Mar-2018 19:59:32 UTC] PHP Notice:  Undefined variable: wp_query in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 168
+[24-Mar-2018 19:59:32 UTC] PHP Stack trace:
+[24-Mar-2018 19:59:32 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Mar-2018 19:59:32 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Mar-2018 19:59:32 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Mar-2018 19:59:32 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Mar-2018 19:59:32 UTC] PHP   5. devkick_category_link_color() C:\laragon\www\devkick\wp-content\themes\devkick\category.php:4
+[24-Mar-2018 19:59:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_queried_object() on null in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php:168
+Stack trace:
+#0 C:\laragon\www\devkick\wp-content\themes\devkick\category.php(4): devkick_category_link_color()
+#1 C:\laragon\www\devkick\wp-includes\template-loader.php(74): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\devkick\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\devkick\index.php(17): require('C:\\laragon\\www\\...')
+#4 {main}
+  thrown in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 168
+[24-Mar-2018 20:01:29 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 170
+[24-Mar-2018 20:13:48 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\laragon\www\devkick\wp-content\themes\devkick\functions.php on line 177
+[24-Mar-2018 20:27:44 UTC] PHP Notice:  Undefined variable: term in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 17
+[24-Mar-2018 20:27:44 UTC] PHP Stack trace:
+[24-Mar-2018 20:27:44 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Mar-2018 20:27:44 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Mar-2018 20:27:44 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Mar-2018 20:27:45 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Mar-2018 20:27:45 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[24-Mar-2018 20:27:45 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[24-Mar-2018 20:27:45 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[24-Mar-2018 20:27:45 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[24-Mar-2018 20:27:46 UTC] PHP Notice:  Undefined variable: term in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 17
+[24-Mar-2018 20:27:46 UTC] PHP Stack trace:
+[24-Mar-2018 20:27:46 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Mar-2018 20:27:46 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Mar-2018 20:27:46 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Mar-2018 20:27:46 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Mar-2018 20:27:46 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[24-Mar-2018 20:27:47 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[24-Mar-2018 20:27:47 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[24-Mar-2018 20:27:47 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[24-Mar-2018 20:28:12 UTC] PHP Notice:  Undefined variable: term in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 23
+[24-Mar-2018 20:28:12 UTC] PHP Stack trace:
+[24-Mar-2018 20:28:12 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Mar-2018 20:28:12 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Mar-2018 20:28:12 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Mar-2018 20:28:12 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Mar-2018 20:28:12 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[24-Mar-2018 20:28:12 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[24-Mar-2018 20:28:13 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[24-Mar-2018 20:28:13 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[24-Mar-2018 20:28:14 UTC] PHP Notice:  Undefined variable: term in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 23
+[24-Mar-2018 20:28:14 UTC] PHP Stack trace:
+[24-Mar-2018 20:28:14 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Mar-2018 20:28:14 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Mar-2018 20:28:14 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Mar-2018 20:28:14 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Mar-2018 20:28:14 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[24-Mar-2018 20:28:14 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[24-Mar-2018 20:28:14 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[24-Mar-2018 20:28:14 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[24-Mar-2018 20:29:13 UTC] PHP Notice:  Undefined variable: term in C:\laragon\www\devkick\wp-content\themes\devkick\category.php on line 2
+[24-Mar-2018 20:29:13 UTC] PHP Stack trace:
+[24-Mar-2018 20:29:13 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Mar-2018 20:29:13 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Mar-2018 20:29:13 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Mar-2018 20:29:13 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Mar-2018 20:29:45 UTC] PHP Notice:  Undefined variable: color in C:\laragon\www\devkick\wp-content\themes\devkick\category.php on line 2
+[24-Mar-2018 20:29:45 UTC] PHP Stack trace:
+[24-Mar-2018 20:29:45 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Mar-2018 20:29:45 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Mar-2018 20:29:45 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Mar-2018 20:29:45 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[24-Mar-2018 20:30:07 UTC] PHP Notice:  Undefined variable: term in C:\laragon\www\devkick\wp-content\themes\devkick\category.php on line 2
+[24-Mar-2018 20:30:07 UTC] PHP Stack trace:
+[24-Mar-2018 20:30:07 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[24-Mar-2018 20:30:07 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[24-Mar-2018 20:30:07 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[24-Mar-2018 20:30:07 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 13:54:29 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting '(' in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 28
+[25-Mar-2018 13:54:30 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting '(' in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 28
+[25-Mar-2018 13:54:30 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting '(' in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 28
+[25-Mar-2018 14:11:55 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\laragon\www\devkick\wp-content\themes\devkick\header.php:23
+Stack trace:
+#0 C:\laragon\www\devkick\wp-includes\template.php(688): require_once()
+#1 C:\laragon\www\devkick\wp-includes\template.php(647): load_template('C:\\laragon\\www\\...', true)
+#2 C:\laragon\www\devkick\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\laragon\www\devkick\wp-content\themes\devkick\category.php(1): get_header()
+#4 C:\laragon\www\devkick\wp-includes\template-loader.php(74): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\devkick\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\devkick\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 23
+[25-Mar-2018 14:20:14 UTC] PHP Parse error:  syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 38
+[25-Mar-2018 14:20:15 UTC] PHP Parse error:  syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 38
+[25-Mar-2018 14:20:15 UTC] PHP Parse error:  syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 38
+[25-Mar-2018 14:23:33 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 317
+[25-Mar-2018 14:23:33 UTC] PHP Stack trace:
+[25-Mar-2018 14:23:33 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:23:33 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:23:33 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:23:33 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:23:33 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\index.php:1
+[25-Mar-2018 14:23:33 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:23:33 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:23:33 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:23:33 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:23:33 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 331
+[25-Mar-2018 14:23:33 UTC] PHP Stack trace:
+[25-Mar-2018 14:23:33 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:23:33 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:23:33 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:23:33 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:23:34 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\index.php:1
+[25-Mar-2018 14:23:34 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:23:34 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:23:34 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:23:34 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:23:35 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 317
+[25-Mar-2018 14:23:35 UTC] PHP Stack trace:
+[25-Mar-2018 14:23:35 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:23:35 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:23:35 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:23:35 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:23:35 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[25-Mar-2018 14:23:35 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:23:35 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:23:35 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:23:35 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:23:35 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 331
+[25-Mar-2018 14:23:35 UTC] PHP Stack trace:
+[25-Mar-2018 14:23:36 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:23:36 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:23:36 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:23:36 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:23:36 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[25-Mar-2018 14:23:36 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:23:36 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:23:36 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:23:36 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:24:00 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 317
+[25-Mar-2018 14:24:00 UTC] PHP Stack trace:
+[25-Mar-2018 14:24:00 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:24:00 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:24:00 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:24:00 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:24:00 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\index.php:1
+[25-Mar-2018 14:24:00 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:24:00 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:24:00 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:24:00 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:24:00 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 331
+[25-Mar-2018 14:24:00 UTC] PHP Stack trace:
+[25-Mar-2018 14:24:00 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:24:00 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:24:00 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:24:00 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:24:00 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\index.php:1
+[25-Mar-2018 14:24:00 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:24:00 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:24:00 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:24:00 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:24:01 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 317
+[25-Mar-2018 14:24:01 UTC] PHP Stack trace:
+[25-Mar-2018 14:24:01 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:24:01 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:24:01 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:24:01 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:24:01 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[25-Mar-2018 14:24:01 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:24:01 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:24:01 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:24:01 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:24:01 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 331
+[25-Mar-2018 14:24:01 UTC] PHP Stack trace:
+[25-Mar-2018 14:24:01 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:24:01 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:24:01 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:24:01 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:24:01 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[25-Mar-2018 14:24:01 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:24:01 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:24:01 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:24:01 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:24:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function esc_url(), 0 passed in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 37 and at least 1 expected in C:\laragon\www\devkick\wp-includes\formatting.php:3789
+Stack trace:
+#0 C:\laragon\www\devkick\wp-content\themes\devkick\header.php(37): esc_url()
+#1 C:\laragon\www\devkick\wp-includes\template.php(688): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\devkick\wp-includes\template.php(647): load_template('C:\\laragon\\www\\...', true)
+#3 C:\laragon\www\devkick\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\laragon\www\devkick\wp-content\themes\devkick\index.php(1): get_header()
+#5 C:\laragon\www\devkick\wp-includes\template-loader.php(74): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\devkick\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\devkick\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown in C:\laragon\www\devkick\wp-includes\formatting.php on line 3789
+[25-Mar-2018 14:24:37 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 317
+[25-Mar-2018 14:24:37 UTC] PHP Stack trace:
+[25-Mar-2018 14:24:37 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:24:37 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:24:37 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:24:37 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:24:37 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\index.php:1
+[25-Mar-2018 14:24:37 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:24:37 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:24:37 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:24:37 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:24:37 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 331
+[25-Mar-2018 14:24:37 UTC] PHP Stack trace:
+[25-Mar-2018 14:24:37 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:24:37 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:24:37 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:24:37 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:24:37 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\index.php:1
+[25-Mar-2018 14:24:37 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:24:37 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:24:37 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:24:37 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:24:38 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 317
+[25-Mar-2018 14:24:38 UTC] PHP Stack trace:
+[25-Mar-2018 14:24:38 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:24:38 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:24:38 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:24:38 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:24:38 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[25-Mar-2018 14:24:38 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:24:38 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:24:38 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:24:38 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:24:38 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 331
+[25-Mar-2018 14:24:38 UTC] PHP Stack trace:
+[25-Mar-2018 14:24:38 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:24:38 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:24:38 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:24:38 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:24:38 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[25-Mar-2018 14:24:39 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:24:39 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:24:39 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:24:39 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:25:08 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 317
+[25-Mar-2018 14:25:08 UTC] PHP Stack trace:
+[25-Mar-2018 14:25:08 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:25:08 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:25:08 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:25:08 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:25:08 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\index.php:1
+[25-Mar-2018 14:25:08 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:25:08 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:25:08 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:25:08 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:25:08 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 331
+[25-Mar-2018 14:25:08 UTC] PHP Stack trace:
+[25-Mar-2018 14:25:08 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:25:08 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:25:08 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:25:08 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:25:08 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\index.php:1
+[25-Mar-2018 14:25:08 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:25:08 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:25:08 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:25:08 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:25:10 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 317
+[25-Mar-2018 14:25:10 UTC] PHP Stack trace:
+[25-Mar-2018 14:25:10 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:25:10 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:25:10 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:25:10 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:25:10 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[25-Mar-2018 14:25:10 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:25:10 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:25:10 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:25:10 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:25:10 UTC] PHP Notice:  Trying to get property of non-object in C:\laragon\www\devkick\wp-includes\link-template.php on line 331
+[25-Mar-2018 14:25:10 UTC] PHP Stack trace:
+[25-Mar-2018 14:25:10 UTC] PHP   1. {main}() C:\laragon\www\devkick\index.php:0
+[25-Mar-2018 14:25:10 UTC] PHP   2. require() C:\laragon\www\devkick\index.php:17
+[25-Mar-2018 14:25:10 UTC] PHP   3. require_once() C:\laragon\www\devkick\wp-blog-header.php:19
+[25-Mar-2018 14:25:10 UTC] PHP   4. include() C:\laragon\www\devkick\wp-includes\template-loader.php:74
+[25-Mar-2018 14:25:10 UTC] PHP   5. get_header() C:\laragon\www\devkick\wp-content\themes\devkick\front-page.php:1
+[25-Mar-2018 14:25:10 UTC] PHP   6. locate_template() C:\laragon\www\devkick\wp-includes\general-template.php:41
+[25-Mar-2018 14:25:10 UTC] PHP   7. load_template() C:\laragon\www\devkick\wp-includes\template.php:647
+[25-Mar-2018 14:25:10 UTC] PHP   8. require_once() C:\laragon\www\devkick\wp-includes\template.php:688
+[25-Mar-2018 14:25:10 UTC] PHP   9. get_page_link() C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+[25-Mar-2018 14:32:45 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 37
+[25-Mar-2018 14:34:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getget_post_field() in C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+Stack trace:
+#0 C:\laragon\www\devkick\wp-includes\template.php(688): require_once()
+#1 C:\laragon\www\devkick\wp-includes\template.php(647): load_template('C:\\laragon\\www\\...', true)
+#2 C:\laragon\www\devkick\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\laragon\www\devkick\wp-content\themes\devkick\index.php(1): get_header()
+#4 C:\laragon\www\devkick\wp-includes\template-loader.php(74): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\devkick\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\devkick\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 37
+[25-Mar-2018 14:34:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_permalinkget_post_field() in C:\laragon\www\devkick\wp-content\themes\devkick\header.php:37
+Stack trace:
+#0 C:\laragon\www\devkick\wp-includes\template.php(688): require_once()
+#1 C:\laragon\www\devkick\wp-includes\template.php(647): load_template('C:\\laragon\\www\\...', true)
+#2 C:\laragon\www\devkick\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\laragon\www\devkick\wp-content\themes\devkick\index.php(1): get_header()
+#4 C:\laragon\www\devkick\wp-includes\template-loader.php(74): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\devkick\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\devkick\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 37
+[25-Mar-2018 14:34:37 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 37
+[25-Mar-2018 14:40:22 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\laragon\www\devkick\wp-content\themes\devkick\header.php on line 37

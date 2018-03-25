@@ -19,19 +19,26 @@
 <body>
     <header class="main-nav">
         <div class="nav-container">
-            <?php
-                        wp_nav_menu( array(
-                            'menu' => 'devkick',
-                            'theme_location' => 'primary',
-                            'container' => 'nav',
-                            'container_class' =>'main-navigation',
-                            'container_id'=>'',
-                            'depth' => 0,
-                            'items_wrap' => '%3$s',
-                            // 'walker' => new Devkick_Walker_Nav_Menu()
-                            )
-                        );
-            ?>
+            <nav class="main-navigation">
+                <a class="home <?php if (is_front_page()){?>current<?php } ?>" href="<?php echo get_home_url(); ?>">
+                    <i class="fas fa-home"></i>
+                    <span>Accueil</span>
+                </a>
+                <?php $cat_id= get_cat_ID('Tutoriels');?>
+                <a class="tuto <?php if (is_category('tuto')){?>current<?php } ?>" href="<?php echo esc_url(get_category_link($cat_id)) ?>">
+                    <i class="fas fa-desktop"></i>
+                    <span>Tutoriels</span>
+                </a>
+                <?php $cat_id= get_cat_ID('Snippets');?>
+                <a class="snippet <?php if (is_category('snippet')){?>current<?php } ?>" href="<?php echo esc_url(get_category_link($cat_id)) ?>">
+                    <i class="far fa-file-code"></i>
+                    <span>Snippets</span>
+                </a>
+                <a class="about <?php if (is_page('about')){?>current<?php } ?>" href="<?php echo esc_url(get_permalink( get_page_by_path('about')))?>">
+                    <i class="far fa-user"></i>
+                    <span>About</span>
+                </a>
+            </nav>
             <div class="search-area">
                 <form role="search" action="" method="get" name="s" class="nav-form-search">
                     <label for=""></label>

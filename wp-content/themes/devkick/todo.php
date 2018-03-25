@@ -1,15 +1,17 @@
 <?php
-                wp_nav_menu( array(
-                    'menu' => 'devkick',
-                    'theme_location' => 'primary',
-                    'container' => 'nav',
-                    'container_class' =>'main-navigation',
-                    'container_id'=>'',
-                    'depth' => 0,
-                    'items_wrap' => '%3$s',
-                    // 'walker' => new Devkick_Walker_Nav_Menu()
-                    )
-                );
+                        $term = $wp_query->get_queried_object()->term_id;
+                        devkick_category_link_color($term);
+                        wp_nav_menu( array(
+                            'menu' => 'devkick',
+                            'theme_location' => 'primary',
+                            'container' => 'nav',
+                            'container_class' =>'main-navigation',
+                            'container_id'=>'',
+                            'depth' => 0,
+                            'items_wrap' => '%3$s',
+                            // 'walker' => new Devkick_Walker_Nav_Menu()
+                            )
+                        );
             ?>
 
 

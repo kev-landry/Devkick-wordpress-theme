@@ -1,4 +1,5 @@
 <?php
+@ini_set( 'max_execution_time', '300' );
 
 define('DEVKICK_VERSION', '0.6');
 
@@ -14,11 +15,12 @@ function devkick_scripts() {
     DEVKICK_VERSION, 'all' );
     wp_enqueue_style( 'devkick_custom', get_template_directory_uri(). '/style.css', array('devkick_css'),
     DEVKICK_VERSION, 'all' );
-    wp_enqueue_style( 'fonts_css', 'https://fonts.googleapis.com/css?family=Nunito|Open+Sans|Roboto');
+    // wp_enqueue_style( 'fonts_css', 'https://fonts.googleapis.com/css?family=Nunito|Open+Sans|Roboto');
     //JS
     // wp_enqueue_script( 'jquery_cdn', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js');
     wp_enqueue_script( 'devkick_script', get_template_directory_uri(). '/assets/js/main.js', array(), 0.6, true );
     wp_enqueue_script( 'fa_cdn', 'https://use.fontawesome.com/releases/v5.0.1/js/all.js');
+    wp_enqueue_script( 'wp-api' );
 }
 add_action( 'wp_enqueue_scripts', 'devkick_scripts' );
 
@@ -36,7 +38,7 @@ function devkick_admin_init() {
         wp_enqueue_media();
         wp_enqueue_style( 'wp-color-picker' );
         wp_enqueue_script( 'wp-color-picker' );
-        wp_enqueue_script( 'devkick-menu-color', get_template_directory_uri().'/assets/js/devkick-menu-color.js', array( 'wp-color-picker' ), false, true ); 
+        wp_enqueue_script( 'devkick-menu-color', get_template_directory_uri().'/assets/js/devkick-menu-color.js', array( 'wp-color-picker' ), false, true );
 
     }
     add_action('admin_enqueue_scripts', 'devkick_admin_scripts');
@@ -85,7 +87,7 @@ function devkick_activ_options() {
         $addsizes = array(
             "medium_large" => "Medium Large"
         );
-    
+
         $newsizes = array_merge($sizes,$addsizes);
         return $newsizes;
     }
@@ -151,8 +153,29 @@ add_action( 'init', 'devkick_custom_icon_color' );
 add_action( 'admin_enqueue_scripts', 'wptuts_add_color_picker' );
 function wptuts_add_color_picker( $hook ) {
 
-    // Add the color picker css file       
-         
+    // Add the color picker css file
+
     // Include our custom jQuery file with WordPress Color Picker dependency
 
+}
+function devkick_category_color() {
+    include('includes/devkick-category-color.php');
+}
+add_action( 'admin_init', 'devkick_category_color' );
+
+function devkick_category_link_color($term) {
+    //chopper la categorie -> chopper son term_id -> _categorie_color
+    $color = get_term_meta( $term, '_category_color', true );
+    echo "
+    <style>
+        .tuto-link a:hover i {
+            color: #".$color.";
+        }
+
+    </style>
+    ";
+
+    if (!is_front_page()) {
+        # code...
+    }
 }
