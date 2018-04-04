@@ -26,8 +26,8 @@
 
                     <?php
                     $args = array ( 'category_name' => 'tuto', 'posts_per_page' => 3);
-                    $myposts = get_posts( $args );
-                    foreach( $myposts as $post ) :	setup_postdata($post);
+                    $posts = get_posts( $args );
+                    foreach( $posts as $post ) :	setup_postdata($post);
                     ?>
                         <div class="column">
                             <?php get_template_part('content-article', get_post_format()); ?>
@@ -46,8 +46,8 @@
 
                     <?php
                     $args = array ( 'category_name' => 'snippet', 'posts_per_page' => 3);
-                    $myposts = get_posts( $args );
-                    foreach( $myposts as $post ) :	setup_postdata($post);
+                    $posts = get_posts( $args );
+                    foreach( $posts as $post ) :	setup_postdata($post);
                     ?>
                         <div class="column">
                             <?php get_template_part('content-article', get_post_format()); ?>

@@ -3,6 +3,8 @@
 function devkick_build_options_page() {
 
     $theme_opts = get_option('devkick_opts');
+	        wp_enqueue_style( 'devkick_css', get_template_directory_uri(). '/assets/css/main.css', array(),
+        DEVKICK_VERSION, 'all' );
     ?>
 
         <section class="hero is-warning">
