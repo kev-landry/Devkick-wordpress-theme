@@ -1,1 +1,6 @@
-@import "../../../node_modules/bulma/sass/layout/footer.sass";
+$footer-background-color: $background !default;
+
+.footer {
+  background-color: $footer-background-color;
+  padding: 3rem 1.5rem 6rem;
+}
