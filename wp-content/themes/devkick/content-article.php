@@ -9,11 +9,18 @@
             }
         ?>
     </a>
-    <h1>
+    <h1 class="title is-4">
         <a href="<?php the_permalink() ?>">
             <?php the_title();?>
         </a>
     </h1>
-    <?php //the_date(); ?>
-    <?php the_excerpt();?>
+    <div>
+	    <?php //the_date(); ?>
+	    <?php the_excerpt();?>
+    </div>
+    <div class="article-box-footer">
+        <a href="<?php the_permalink(); ?>">Lire</a>
+         |
+        <a>Commentaires</a>
+    </div>
 </article>

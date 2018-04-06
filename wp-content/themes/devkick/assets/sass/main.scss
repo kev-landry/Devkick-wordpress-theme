@@ -11,24 +11,19 @@
 
 }
 
-.column > .box {
-    height: 100%;
-}
-
 article a {
     display: block;
     text-align: center;
     width: 100%;
 }
 
-article p {
-    // text-align: center
-}
-
 .article-section {
     background-color: #f8f8f9;
 }
-
+::selection {
+    background: rgba(255,245,20,.8);
+    color: #111;
+}
 
 // .tutorials.current i,.tutorials:hover i {
 //     color: #4cbbf9
