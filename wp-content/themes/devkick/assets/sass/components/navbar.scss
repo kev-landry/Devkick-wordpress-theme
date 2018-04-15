@@ -1,15 +1,16 @@
 $nav-bg: $blue-dark;
 $navbar-background-color: $blue-dark;
 
-a {
-	text-decoration: none;
-}
+
 .main-navigation a.current {
     color: #fff;
 }
 .main-nav {
     background-color: $nav-bg;
     height: 80px;
+    a {
+        text-decoration: none;
+    }
 }
 
 .nav-container {
@@ -18,6 +19,11 @@ a {
     display: grid;
     grid-template-columns: 80% 20%;
     height: 100%;
+    @include mobile {
+        .navbar-menu {
+            background-image: linear-gradient(141deg, $gradient-top-left 0%, $color 71%, $gradient-bottom-right 100%);
+        }
+    }
 }
 .main-navigation {
     display: grid;

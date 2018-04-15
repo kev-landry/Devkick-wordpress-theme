@@ -6,6 +6,31 @@
   flex-direction: column;
   justify-content: space-between;
 
+  a:not(:hover) {
+    text-decoration: none;
+  }
+  a{
+    text-decoration-color: #f5da55;
+  }
+  .image-options {
+    display: block;
+    position: relative;
+    img {
+      display: block;
+      height: 100%;
+      width: 100%;
+      filter: drop-shadow(3px 3px 5px #282b36);
+    }
+
+    // Sizes
+    @each $dimension in $dimensions {
+      &.is-#{$dimension}x#{$dimension} {
+        height: $dimension * 1px;
+        width: $dimension * 1px;
+      }
+    }
+  }
+
   .navbar {
     background: none;
   }
@@ -16,6 +41,9 @@
     }
   }
 
+  .title {
+    line-height: 4.5rem;
+  }
   // Colors
   @each $name, $pair in $colors {
     $color: nth($pair, 1);

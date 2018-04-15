@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-        <header class="hero is-bold main-header">
+        <section class="hero is-bold main-header">
             <div class="hero-body">
                 <div class="container">
                     <div class="columns">
@@ -8,7 +8,7 @@
                             <h1 class="title is-3">Kevin Landry</h1>
                             <p class="subtitle is-4">
                                 <?php echo stripslashes($theme_opts['legend_01']); ?><br/>
-                                <strong style="color:#f5da55">Si vous voulez en savoir plus</strong>.
+                                <a href="#"><strong style="color:#f5da55">Si vous voulez en savoir plus</strong></a>.
                             </p>
                             <div class="social">
 
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </section>
         <section class="section article-section">
             <div class="container article-container">
                 <h2 class="title is-4">Derniers articles</h2>
