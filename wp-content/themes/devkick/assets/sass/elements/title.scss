@@ -59,6 +59,11 @@ $subtitle-strong-weight: $weight-semibold !default;
   @each $size in $sizes {
     $i: index($sizes, $size);
 
+    @include until($tablet) {
+      &.is-#{$i} {
+        font-size: $size;
+      }  
+    }
     &.is-#{$i} {
       font-size: $size;
     }
@@ -84,6 +89,11 @@ $subtitle-strong-weight: $weight-semibold !default;
   @each $size in $sizes {
     $i: index($sizes, $size);
 
+    @include until($tablet) {
+      &.is-#{$i - 1} {
+        font-size: $size;
+      }  
+    }
     &.is-#{$i} {
       font-size: $size;
     }

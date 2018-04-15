@@ -24,6 +24,7 @@
                 </div>
             </div>
         </section>
+        <main class="main" id="main-content">
         <section class="section article-section">
             <div class="container article-container">
                 <h2 class="title is-4">Derniers articles</h2>
@@ -58,4 +59,6 @@
                 <!-- container -->
             </div>
         </section>
+        </main>
+
     <?php get_footer(); ?>

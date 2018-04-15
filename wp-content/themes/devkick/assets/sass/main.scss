@@ -11,6 +11,16 @@
 
 }
 
+
+.template {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "hero"
+        "main"
+        "footer" 
+}
+
 article a {
     display: block;
     text-align: center;

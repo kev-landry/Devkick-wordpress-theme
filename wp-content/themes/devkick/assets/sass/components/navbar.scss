@@ -11,62 +11,92 @@ $navbar-background-color: $blue-dark;
     a {
         text-decoration: none;
     }
-}
-
-.nav-container {
-    max-width: 800px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 80% 20%;
-    height: 100%;
-}
-.main-navigation {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.search-area {
-    display: flex;
-    flex-wrap: nowrap;
-}
-.nav-form-search {
-    display: flex;
-    height: 100%;
-}
-.nav-form-search-input {
-    height: 100%;
-    min-width: 130px;
-    background-color: lighten($nav-bg, 10%);
-    border: none;
-    text-align: center;
-    color: #fff;
-    &:active,
-    &:focus,
-    &:hover {
-        border-style: none;
-        border: none;
-        outline: none;
-        background-color: lighten($nav-bg, 13%);
-    }
-}
-
-.nav-form-search-submit {
-    color: hsl(0, 0%, 71%);
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
-    font-size: 1.1rem;
-        &:hover {
-            color: #fff;
+    .nav-container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: grid;
+        @include until($tablet) {
+            grid-template-columns: 100%;
         }
+        grid-template-columns: 70% 30%;
+        height: 100%;
+        
+        .main-navigation {
+            display: grid;
+            @include until($tablet) {
+                // grid-template-columns: 100%;
+                grid-template-columns: 1fr 1fr;
+            }
+            grid-template-columns: repeat(4, 1fr);
+            
+            a {
+                flex: 1 1 50%;
+                @include until($tablet) {
+                    font-size: .9rem;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    padding-left: 25%;
+                }
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.1rem;
+                flex-direction: column;
+                color: hsl(0, 0%, 71%);
+
+                span {
+                    padding-left: 0.5rem;
+                }
+            }
+        }
+        .search-area {
+            
+            @include until($tablet) {
+                display: none;
+            }
+
+            display: flex;
+
+            flex-wrap: nowrap;
+
+            .search-area-form {
+                display: flex;
+                height: 100%;
+
+                input {
+                    height: 100%;
+                    min-width: 120px;
+                    background-color: lighten($nav-bg, 10%);
+                    border: none;
+                    text-align: center;
+                    color: #fff;
+                    &:active,
+                    &:focus,
+                    &:hover {
+                        border-style: none;
+                        border: none;
+                        outline: none;
+                        background-color: lighten($nav-bg, 13%);
+                    }
+                }
+                button {
+                    width: 100%;
+                    padding-right: 10%;
+                    color: hsl(0, 0%, 71%);
+                    border: none;
+                    cursor: pointer;
+                    background-color: transparent;
+                    font-size: 1.1rem;
+                        &:hover {
+                            color: #fff;
+                        }
+                }
+            }
+        }
+    }
+    
 }
-.main-navigation a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.1rem;
-    flex-direction: column;
-    color: hsl(0, 0%, 71%);
-}
+
 /* .main-navigation a:hover {
     background-color: rgba(0, 0, 0,0.5);
 } */
@@ -78,7 +108,7 @@ $navbar-background-color: $blue-dark;
   color: #fff;
 }
 
-.home.current svg, .home:hover svg {
+.front.current svg, .front:hover svg {
     color:  #f5da55;
 }
 .tuto.current svg, .tuto:hover svg {

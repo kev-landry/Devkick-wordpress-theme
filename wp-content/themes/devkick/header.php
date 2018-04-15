@@ -16,13 +16,13 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body class="template">
     <header class="main-nav">
         <div class="nav-container">
             <nav class="main-navigation">
-                <a class="home <?php if (is_front_page()){?>current<?php } ?>" href="<?php echo get_home_url(); ?>">
-                    <i class="fas fa-home"></i>
-                    <span>Accueil</span>
+                <a class="front <?php if (is_front_page()){?>current<?php } ?>" href="<?php echo get_home_url(); ?>">
+                <i class="fas fa-home"></i>
+                <span>Accueil</span>
                 </a>
                 <?php $cat_id= get_cat_ID('Tutoriels');?>
                 <a class="tuto <?php if (is_category('tuto')){?>current<?php } ?>" href="<?php echo esc_url(get_category_link($cat_id)) ?>">
@@ -40,7 +40,7 @@
                 </a>
             </nav>
             <div class="search-area">
-                <form role="search" action="" method="get" name="s" class="nav-form-search">
+                <form role="search" action="" method="get" name="s" class="search-area-form">
                     <label for=""></label>
                     <input type="search" placeholder="Chercher" name="s" class="nav-form-search-input">
                     <button type="submit" class="nav-form-search-submit">
@@ -50,4 +50,3 @@
             </div>
         </div>
     </header>
-    <main class="main" id="main-content">
