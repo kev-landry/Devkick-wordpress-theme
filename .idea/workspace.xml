@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb23cc1d-603e-40e9-9e6e-c3f21fe7f035" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/base/generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/base/generic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/components/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/components/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/elements/image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/elements/image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/layout/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/layout/hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/utilities/derived-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/utilities/derived-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/utilities/initial-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/utilities/initial-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/front-page.php" afterDir="false" />
-    </list>
+    <list default="true" id="cb23cc1d-603e-40e9-9e6e-c3f21fe7f035" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +86,8 @@
       <file leaf-file-name="navbar.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/components/navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="791">
+              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -228,26 +217,6 @@
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="devkick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="devkick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="utilities" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -298,16 +267,17 @@
       <workItem from="1523109297091" duration="706000" />
       <workItem from="1523188872679" duration="8768000" />
       <workItem from="1523274574401" duration="7000" />
+      <workItem from="1525686253765" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30976000" />
+    <option name="totallyTimeSpent" value="30980000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1935" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20106667" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -672,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/components/navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="791">
+          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
         </state>
       </provider>
     </entry>
