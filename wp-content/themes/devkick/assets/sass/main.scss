@@ -8,9 +8,12 @@
 //     font-size: 1.1rem;
 // }
 #main-content {
-
+    grid-area: main;
 }
 
+.hero-about{
+	background: linear-gradient(to right, rgba(255, 0, 76, 0.856), #FF004C); 
+}
 
 .template {
     display: grid;
@@ -18,7 +21,7 @@
         "header"
         "hero"
         "main"
-        "footer" 
+        "footer"
 }
 
 article a {
@@ -34,7 +37,13 @@ article a {
     background: rgba(255,245,20,.8);
     color: #111;
 }
-
+@include mobile {
+    .article-container {
+        .title {
+            text-align: center;
+        }
+    }
+}
 // .tutorials.current i,.tutorials:hover i {
 //     color: #4cbbf9
 // }

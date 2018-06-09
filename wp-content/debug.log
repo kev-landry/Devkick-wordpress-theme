@@ -4493,3 +4493,23 @@ Stack trace:
 [04-Apr-2018 08:22:06 UTC] PHP   6. wpdb->__construct() F:\Projets\devkick\wp-includes\load.php:404
 [04-Apr-2018 08:22:06 UTC] PHP   7. wpdb->db_connect() F:\Projets\devkick\wp-includes\wp-db.php:592
 [04-Apr-2018 08:22:06 UTC] PHP   8. mysqli_real_connect() F:\Projets\devkick\wp-includes\wp-db.php:1531
+[19-May-2018 14:45:06 UTC] PHP Warning:  require_once(F:\Projets\devkick\wp-content\themes\devkick\includes/walker-nav-menu-edit.php): failed to open stream: No such file or directory in F:\Projets\devkick\wp-content\themes\devkick\includes\menu-item-custom-fields.php on line 46
+[19-May-2018 14:45:06 UTC] PHP Stack trace:
+[19-May-2018 14:45:06 UTC] PHP   1. {main}() F:\Projets\devkick\wp-admin\admin-ajax.php:0
+[19-May-2018 14:45:06 UTC] PHP   2. do_action() F:\Projets\devkick\wp-admin\admin-ajax.php:99
+[19-May-2018 14:45:06 UTC] PHP   3. WP_Hook->do_action() F:\Projets\devkick\wp-includes\plugin.php:453
+[19-May-2018 14:45:06 UTC] PHP   4. WP_Hook->apply_filters() F:\Projets\devkick\wp-includes\class-wp-hook.php:310
+[19-May-2018 14:45:06 UTC] PHP   5. wp_ajax_add_menu_item() F:\Projets\devkick\wp-includes\class-wp-hook.php:286
+[19-May-2018 14:45:06 UTC] PHP   6. apply_filters() F:\Projets\devkick\wp-admin\includes\ajax-actions.php:1263
+[19-May-2018 14:45:06 UTC] PHP   7. WP_Hook->apply_filters() F:\Projets\devkick\wp-includes\plugin.php:203
+[19-May-2018 14:45:06 UTC] PHP   8. Menu_Item_Custom_Fields::_filter_walker() F:\Projets\devkick\wp-includes\class-wp-hook.php:288
+[19-May-2018 14:45:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'F:\Projets\devkick\wp-content\themes\devkick\includes/walker-nav-menu-edit.php' (include_path='.;E:/laragon/etc/php/pear') in F:\Projets\devkick\wp-content\themes\devkick\includes\menu-item-custom-fields.php on line 46
+[19-May-2018 14:45:06 UTC] PHP Stack trace:
+[19-May-2018 14:45:06 UTC] PHP   1. {main}() F:\Projets\devkick\wp-admin\admin-ajax.php:0
+[19-May-2018 14:45:06 UTC] PHP   2. do_action() F:\Projets\devkick\wp-admin\admin-ajax.php:99
+[19-May-2018 14:45:06 UTC] PHP   3. WP_Hook->do_action() F:\Projets\devkick\wp-includes\plugin.php:453
+[19-May-2018 14:45:06 UTC] PHP   4. WP_Hook->apply_filters() F:\Projets\devkick\wp-includes\class-wp-hook.php:310
+[19-May-2018 14:45:06 UTC] PHP   5. wp_ajax_add_menu_item() F:\Projets\devkick\wp-includes\class-wp-hook.php:286
+[19-May-2018 14:45:06 UTC] PHP   6. apply_filters() F:\Projets\devkick\wp-admin\includes\ajax-actions.php:1263
+[19-May-2018 14:45:06 UTC] PHP   7. WP_Hook->apply_filters() F:\Projets\devkick\wp-includes\plugin.php:203
+[19-May-2018 14:45:06 UTC] PHP   8. Menu_Item_Custom_Fields::_filter_walker() F:\Projets\devkick\wp-includes\class-wp-hook.php:288

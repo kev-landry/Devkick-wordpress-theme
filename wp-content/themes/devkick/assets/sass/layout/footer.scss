@@ -1,6 +1,7 @@
 $footer-background-color: $background !default;
 
 .footer {
+  grid-area: footer;
   background-color: #282b36;
   padding: 3rem 1.5rem 6rem;
   color: #9b978d;

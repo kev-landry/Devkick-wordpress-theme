@@ -4,14 +4,14 @@
 
         $color = get_term_meta( $term, '_category_color', true );
     ?>
-    <header class="hero is-bold" style="background-color:#<?php echo $color ?>">
+    <section class="hero is-bold" style="background-color:#<?php echo $color ?> !important">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title has-text-centered"><?php single_cat_title( '', true );?></h1>
                 <h3 class="subtitle has-text-centered"><?php echo category_description() ?></h3>
             </div>
         </div>
-    </header>
+    </section>
     <section class="section article-section">
             <div class="container">
                 <div class="columns">
