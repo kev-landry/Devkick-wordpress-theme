@@ -7,20 +7,19 @@
             </div>
         </div>
     </section>
-    <section class="section article-section">
-            <div class="container">
+    <section class="section">
+            <div class="article-container">
                 <div class="columns">
 
-                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                <article id="post-<?php the_ID();?>" class="">
+                
                     <section class="section">
-                        <div class="container article-container">
+                    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                        <article id="post-<?php the_ID();?>" class="">
                             <?php the_content();?>
-                        </div>
+                        </article>
+                    <?php endwhile; endif; ?>
                     </section>
                     <!-- Si l'article n'a pas de read more- -->
-                </article>
-                <?php endwhile; endif; ?>
 
                 </div>
                 <!-- container -->

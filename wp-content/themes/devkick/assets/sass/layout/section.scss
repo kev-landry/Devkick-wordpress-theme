@@ -1,8 +1,29 @@
-$section-padding: 3rem 1.5rem !default;
-$section-padding-medium: 9rem 1.5rem !default;
-$section-padding-large: 18rem 1.5rem !default;
+
 
 .section {
+  $section-padding: 3rem 1.5rem !default;
+  $section-padding-medium: 9rem 1.5rem !default;
+  $section-padding-large: 18rem 1.5rem !default;
+  padding: $section-padding;
+
+  // Responsiveness
+  @include desktop {
+    // Sizes
+    &.is-medium {
+      padding: $section-padding-medium;
+    }
+
+    &.is-large {
+      padding: $section-padding-large;
+    }
+  }
+}
+
+.container-article {
+  background-color: #e8e6f0;
+  $section-padding: 5rem 3rem !default;
+  $section-padding-medium: 9rem 1.5rem !default;
+  $section-padding-large: 18rem 1.5rem !default;
   padding: $section-padding;
 
   // Responsiveness
