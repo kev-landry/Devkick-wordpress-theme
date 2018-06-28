@@ -8,16 +8,16 @@
         <div class="hero-body">
             <div class="container">
                 <h1 class="title has-text-centered"><?php single_cat_title( '', true );?></h1>
-                <h3 class="subtitle has-text-centered"><?php echo category_description() ?></h3>
+                <h3 class="subtitle has-text-centered has-text-grey-light"><?php echo category_description() ?></h3>
             </div>
         </div>
     </section>
     <section class="section article-section">
             <div class="container">
-                <div class="columns">
+                <div class="columns is-multiline">
 
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                        <div class="column">
+                        <div class="column is-one-third">
                             <?php get_template_part('content-article'); ?>
                         </div>
                 <?php endwhile; endif; ?>

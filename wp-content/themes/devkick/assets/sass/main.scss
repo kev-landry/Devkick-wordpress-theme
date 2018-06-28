@@ -1,18 +1,8 @@
 
 @import "./bulma-custom";
 
-
-// .topbar a {
-//     height: 80px;
-//     color: #f6f6f7;
-//     font-size: 1.1rem;
-// }
 #main-content {
     grid-area: main;
-}
-
-.hero-about{
-	background: linear-gradient(to right, rgba(255, 0, 76, 0.856), #FF004C); 
 }
 
 .template {
@@ -22,12 +12,6 @@
         "hero"
         "main"
         "footer"
-}
-
-article a {
-    display: block;
-    text-align: center;
-    width: 100%;
 }
 
 ::selection {
@@ -41,22 +25,3 @@ article a {
         }
     }
 }
-// .tutorials.current i,.tutorials:hover i {
-//     color: #4cbbf9
-// }
-
-// .snippets.current i,.snippets:hover i {
-//     color: #5eeda3
-// }
-
-// .about.current i,.about:hover i {
-//     color: #fdb54b
-// }
-
-// .current-menu-item {
-//     color: red;
-//     border-color: red;
-// }
-// .current_page_item {
-//     //Pouvoir changer la couleur de l'îcone dans l'interface menu,
-// }

@@ -1,19 +1,16 @@
         <footer class="footer">
-            <div class="container">
-                <!-- <div class="columns">
-
-                </div> -->
                 <div class="content has-text-centered">
-                <p>
-                    <strong style="color:#f5871f">DevKick</strong> by <a href="https://jgthms.com">Kevin Landry</a>. The source code is licensed
-                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-                    is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.2</a>.
-                </p>
-                <p>Jolie footer</p>
+                    <p class="hero-social">
+                        <a href="<?php echo get_home_url().'/about';?>">
+                            <i class="fas fa-user-circle "></i>About
+                        </a>
+                        <a target="_blank" href="https://twitter.com/TheSisck1">
+                            <i class="fab fa-twitter-square"></i>Twitter</a>
+                        <a target="_blank" href="https://github.com/kev-landry">
+                            <i class="fab fa-github-square"></i>Github</a>
+                    </p>
                 </div>
-            </div>
         </footer>
-        <?php wp_footer(); ?>
 </body>
 
 </html>

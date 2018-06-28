@@ -9,15 +9,15 @@
                     <p class="subtitle is-4">
                         <?php echo stripslashes($theme_opts['legend_01']); ?>
                         <br/>
-                        <a href="#"><strong style="color:#f5da55">Si vous voulez en savoir plus</strong></a>.
+                        <a href="<?php echo get_home_url().'/about';?>"><strong style="color:#f5da55">Si vous voulez en savoir plus</strong></a>.
                     </p>
                     <p class="hero-social">
-                            <a href="">
+                            <a href="<?php echo get_home_url().'/about';?>">
                                 <i class="fas fa-user-circle "></i>About
                             </a>
-                            <a href="">
+                            <a target="_blank" href="https://twitter.com/TheSisck1">
                                 <i class="fab fa-twitter-square"></i>Twitter</a>
-                            <a href="">
+                            <a target="_blank" href="https://github.com/kev-landry">
                                 <i class="fab fa-github-square"></i>Github</a>
                     </p>
                 </div>

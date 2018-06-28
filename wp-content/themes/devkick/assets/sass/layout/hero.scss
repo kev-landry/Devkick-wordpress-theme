@@ -2,10 +2,29 @@
 .gradient {
 	background: linear-gradient(to bottom right, $nav-bg, #3c4556); 
 }
+
+.hero-social {
+	font-size: 1.5rem;
+	a {
+		// display: block;
+		// display: flex;
+		// flex-direction: row;
+		color: #9b9797;
+		margin-right: 1.5rem;
+		svg {
+			margin-right: 0.5rem;
+		}
+		&:hover {
+			text-decoration-color: #f5da55;
+		}
+		&:not(:hover) {
+			text-decoration: none;
+		}
+
+	}
+}
 .hero {
 	grid-area: hero;
-	// background: linear-gradient(to bottom right, $nav-bg, #3c4556); 
-	// background: linear-gradient(to bottom right,$black-babel, $nav-bg);
 	color: rgb(155, 151, 151);
 	.title {
 		color: #fff;
@@ -32,19 +51,6 @@
 			&.is-#{$dimension}x#{$dimension} {
 				height: $dimension * 1px;
 				width: $dimension * 1px;
-			}
-		}
-	}
-	.hero-social {
-		font-size: 1.5rem;
-		a {
-			// display: block;
-			// display: flex;
-			// flex-direction: row;
-			color: inherit;
-			margin-right: 1.5rem;
-			svg {
-				margin-right: 0.5rem;
 			}
 		}
 	}
@@ -210,6 +216,9 @@
 }
 
 // Components
+.hero-about{
+	background: linear-gradient(to right, rgba(250, 255, 0, 0.9), #E1AF22);
+}
 .hero-video {
 	@include overlay;
 	overflow: hidden;
@@ -260,4 +269,11 @@
 	flex-grow: 1;
 	flex-shrink: 0;
 	padding: 3rem 1.5rem;
+}
+.article-info {
+	.subtitle {
+		a {
+			color: red;
+		}
+	}
 }

@@ -10,19 +10,14 @@
     <section class="section">
             <div class="article-container">
                 <div class="columns">
-
-                
                     <section class="section">
                     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                        <article id="post-<?php the_ID();?>" class="">
+                        <article id="post-<?php the_ID();?>">
                             <?php the_content();?>
                         </article>
                     <?php endwhile; endif; ?>
                     </section>
-                    <!-- Si l'article n'a pas de read more- -->
-
                 </div>
-                <!-- container -->
             </div>
     </section>
 <?php get_footer(); ?>

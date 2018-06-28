@@ -29,6 +29,9 @@ html {
   text-rendering: $body-rendering;
   text-size-adjust: 100%;
 }
+@import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,700');
 
 article,
 aside,
@@ -45,7 +48,9 @@ button,
 input,
 select,
 textarea {
-  font-family: $body-family;
+  font-family: BlinkMacSystemFont, -apple-system,'Inter UI', sans-serif;
+  //letter-spacing: 0.1rem;
+  //word-spacing: 0.1rem;
 }
 
 code,
@@ -57,7 +62,7 @@ pre {
 
 body {
   color: $body-color;
-  font-size: 1rem;
+  font-size: 1.075rem;
   font-weight: $body-weight;
   line-height: $body-line-height;
 }
