@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Blog</title>
+    <title><?php if (is_front_page()){?>Kevin Landry<?php } elseif(is_single()) { echo the_title();}else {echo single_tag_title();} ?></title>
 
     <?php if(!is_single()):?>
     <meta name="description" content="<?php bloginfo('description'); ?>" />

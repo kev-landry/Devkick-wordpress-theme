@@ -21,15 +21,12 @@
         <section class="section">
             <div class="container">
                 <div class="columns">
-
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                         <div class="column">
                             <?php get_template_part('content-article'); ?>
                         </div>
                 <?php endwhile; endif; ?>
-
                 </div>
-                <!-- container -->
             </div>
         </section>
     <?php get_footer(); ?>
