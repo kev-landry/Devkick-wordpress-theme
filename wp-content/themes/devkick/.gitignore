@@ -35,6 +35,9 @@ Thumbs.db
 **/.sass-cache/*
 **/.map
 
+# ASSETS #
+##########
+
 # Composer #
 ##########
 vendors/composer/

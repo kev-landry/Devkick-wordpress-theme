@@ -2,15 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb23cc1d-603e-40e9-9e6e-c3f21fe7f035" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/css/prism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/js/prism.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/base/generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/base/generic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/page-about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/page-about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/base/_all.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/base/generic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/base/helpers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/base/minireset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/bulma-custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/_all.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/level.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/message.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/panel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/_all.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/box.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/container.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/icon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/notification.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/other.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/table.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/tag.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/title.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/grid/_all.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/grid/columns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/grid/tiles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/layout/_all.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/layout/footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/layout/hero.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/layout/section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/_all.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/controls.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/derived-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/initial-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/mixins.scss" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="791">
-              <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -48,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/assets/css/prism.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-860">
-              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-end-line="42" />
+              <caret line="41" column="8" selection-start-line="41" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -57,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="621">
-              <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -71,29 +113,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-about.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-about.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/page-about.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article-box.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/components/article-box.scss">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="414">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generic.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/base/generic.scss">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+            <state relative-caret-position="423">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -168,6 +210,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/devkick/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/devkick/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/devkick/page-about.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/devkick/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -180,7 +224,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/wp-content/themes/devkick/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-57" />
     <option name="y" value="141" />
     <option name="width" value="1936" />
@@ -198,79 +242,6 @@
             <path>
               <item name="devkick" type="b2602c69:ProjectViewProjectNode" />
               <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="devkick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="devkick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="devkick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="devkick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="devkick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="devkick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="devkick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="devkick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="devkick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="devkick" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="elements" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -328,12 +299,12 @@
       <workItem from="1525686253765" duration="4000" />
       <workItem from="1527754216319" duration="1106000" />
       <workItem from="1530176170655" duration="22968000" />
-      <workItem from="1530256579172" duration="4132000" />
+      <workItem from="1530256579172" duration="6424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59186000" />
+    <option name="totallyTimeSpent" value="61478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -345,7 +316,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32890365" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -370,20 +341,6 @@
     <wordpressPath>F:\Projets\devkick</wordpressPath>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/utilities/animations.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/utilities/_all.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/grid/_all.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -600,6 +557,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="e#235#260#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -658,14 +618,14 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/assets/sass/base/generic.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
-          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="791">
-          <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -675,14 +635,14 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/assets/css/prism.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-860">
-          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-end-line="42" />
+          <caret line="41" column="8" selection-start-line="41" selection-end-line="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
-          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -703,7 +663,21 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/page-about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/devkick/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -15,3 +15,5 @@ node_modules
 src/scss/.sass-cache
 package-lock.json
 images/
+.vscode
+.idea
