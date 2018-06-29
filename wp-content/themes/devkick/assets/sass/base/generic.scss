@@ -53,12 +53,12 @@ textarea {
   //word-spacing: 0.1rem;
 }
 
-code,
-pre {
-  -moz-osx-font-smoothing: auto;
-  -webkit-font-smoothing: auto;
-  font-family: $code-family;
-}
+//code,
+//pre {
+//  -moz-osx-font-smoothing: auto;
+//  -webkit-font-smoothing: auto;
+//  font-family: $code-family;
+//}
 
 body {
   color: $body-color;
@@ -83,13 +83,13 @@ a {
   }
 }
 
-code {
-  background-color: $code-background;
-  color: $code;
-  font-size: $code-size;
-  font-weight: $code-weight;
-  padding: $code-padding;
-}
+//code {
+//  background-color: $code-background;
+//  color: $code;
+//  font-size: $code-size;
+//  font-weight: $code-weight;
+//  padding: $code-padding;
+//}
 
 hr {
   background-color: $hr-background-color;
@@ -125,24 +125,24 @@ strong {
 
 // Block
 
-pre {
-  @include overflow-touch;
-
-  background-color: $pre-background;
-  color: $pre;
-  font-size: 0.875em;
-  overflow-x: auto;
-  padding: 1.25rem 1.5rem;
-  white-space: pre;
-  word-wrap: normal;
-
-  code {
-    background-color: transparent;
-    color: currentColor;
-    font-size: 1em;
-    padding: 0;
-  }
-}
+//pre {
+//  @include overflow-touch;
+//
+//  background-color: $pre-background;
+//  color: $pre;
+//  font-size: 0.875em;
+//  overflow-x: auto;
+//  padding: 1.25rem 1.5rem;
+//  white-space: pre;
+//  word-wrap: normal;
+//
+//  code {
+//    background-color: transparent;
+//    color: currentColor;
+//    font-size: 1em;
+//    padding: 0;
+//  }
+//}
 
 table {
   td,
