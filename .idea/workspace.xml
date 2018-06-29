@@ -3,56 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb23cc1d-603e-40e9-9e6e-c3f21fe7f035" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/devkick/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/base/_all.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/base/generic.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/base/helpers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/base/minireset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/bulma-custom.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/_all.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/breadcrumb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/card.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/level.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/media.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/menu.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/message.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/modal.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/panel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/components/tabs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/_all.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/box.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/container.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/content.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/icon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/notification.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/other.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/progress.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/table.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/tag.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/elements/title.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/grid/_all.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/grid/columns.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/grid/tiles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/layout/_all.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/layout/footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/layout/hero.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/layout/section.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/_all.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/controls.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/derived-variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/initial-variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/devkick/assets/sass - Copie/utilities/mixins.scss" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -126,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -224,7 +174,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/wp-content/themes/devkick/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-57" />
     <option name="y" value="141" />
     <option name="width" value="1936" />
@@ -299,15 +249,15 @@
       <workItem from="1525686253765" duration="4000" />
       <workItem from="1527754216319" duration="1106000" />
       <workItem from="1530176170655" duration="22968000" />
-      <workItem from="1530256579172" duration="6424000" />
+      <workItem from="1530256579172" duration="6961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61478000" />
+    <option name="totallyTimeSpent" value="62015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20735608" />
@@ -677,7 +627,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
