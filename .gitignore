@@ -3,7 +3,8 @@ wp-content/uploads
 wp-content/uploads/2017/12
 wp-config.php
 wp-content/uploads
-wp-content/plugins
+wp-content/plugins/
+wp-content/upgrade/
 wp-content/cache
 wp-content/w3tc-config/
 wp-content/advanced-cache.php

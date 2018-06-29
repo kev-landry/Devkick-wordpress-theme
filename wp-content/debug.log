@@ -4515,3 +4515,4 @@ Stack trace:
 [19-May-2018 14:45:06 UTC] PHP   8. Menu_Item_Custom_Fields::_filter_walker() F:\Projets\devkick\wp-includes\class-wp-hook.php:288
 [28-Jun-2018 10:06:20 UTC] PHP Parse error:  syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING) in F:\Projets\devkick\wp-content\themes\devkick\front-page.php on line 16
 [28-Jun-2018 10:06:29 UTC] PHP Parse error:  syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING) in F:\Projets\devkick\wp-content\themes\devkick\front-page.php on line 16
+[29-Jun-2018 10:51:43 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in F:\Projets\devkick\wp-content\themes\devkick\header.php on line 9
