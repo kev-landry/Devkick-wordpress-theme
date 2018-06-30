@@ -13,7 +13,7 @@
                     </p>
                     <p class="hero-social">
                             <a href="<?php echo get_home_url().'/about';?>">
-                                <i class="fas fa-user-circle "></i>About
+                                <i class="fas fa-user-circle"></i>About
                             </a>
                             <a target="_blank" href="https://twitter.com/TheSisck1">
                                 <i class="fab fa-twitter-square"></i>Twitter</a>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="header-right column">
                     <figure class="image-options is-256x256">
-                        <img src="<?php echo $theme_opts['image_01_url'];?>" alt="avatar">
+                        <img alt="kevin landry" src="<?php echo $theme_opts['image_01_url'];?>" alt="avatar">
                     </figure>
                 </div>
             </div>

@@ -1,24 +1,7 @@
-console.log("Hello MAIN JS");
+console.log(
+    "42 :)"
++   "\n\nSi tu t'amuses à inspecter sache que j'ai ce créé"
++   "\nce theme avec le framework css bulma que j\'ai"
++   "\nensuite custom pour utiliser entre autre grid."
+);
 
-const currentUrl = window.location.pathname;
-
-console.log(currentUrl);
-
-function activeLink(currentUrl) {
-
-    switch (currentUrl) {
-        case value:
-
-            break;
-
-        default:
-            break;
-    }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-
-    console.log(wp.api);
-    var postsCollection = new wp.api.collections.Categories();
-    console.log(postsCollection.fetch());
-}, false);
