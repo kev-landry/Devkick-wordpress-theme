@@ -21,4 +21,5 @@ Prism.languages.plsql=Prism.languages.extend("sql",{comment:[/\/\*[\s\S]*?\*\//,
 
 Prism.plugins.customClass.map({
 	number: 'prism--number',
+    tag: 'prism--tag'
 });

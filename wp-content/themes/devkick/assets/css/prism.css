@@ -65,7 +65,7 @@ pre[class*="language-"] {
 }
 
 .token.property,
-.token.tag,
+.token.prism--tag,
 .token.constant,
 .token.symbol,
 .token.deleted {
