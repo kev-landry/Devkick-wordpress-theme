@@ -11,7 +11,7 @@ define('DEVKICK_VERSION', '0.6');
 
 function devkick_scripts() {
     //CSS
-    wp_enqueue_style( 'devkick_css', get_template_directory_uri(). '/assets/css/main.css', array(),
+    wp_enqueue_style( 'devkick_css', get_template_directory_uri(). '/assets/css/main.min.css', array(),
     DEVKICK_VERSION, 'all' );
     wp_enqueue_style( 'devkick_custom', get_template_directory_uri(). '/style.css', array('devkick_css'),
     DEVKICK_VERSION, 'all' );
