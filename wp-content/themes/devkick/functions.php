@@ -141,25 +141,6 @@ add_action( 'wp_default_scripts', function( $scripts ) {
 
 include('includes/devkick-customize.php');
 
-// add_action( 'customize_register', 'devkick_customize_register' );
-
-// function devkick_customize_register( $wp_customize ) {
-//     //All our sections, settings, and controls will be added here
-//     $wp_customize->add_section( 'mytheme_new_section_name' , array(
-//         'title'      => __( 'Visible Section Name', 'mytheme' ),
-//         'priority'   => 30,
-//     ) );
-//     $wp_customize->add_setting( 'header_textcolor' , array(
-//         'default'   => '#000000',
-//         'transport' => 'refresh',
-//     ) );
-//     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'link_color', array(
-//         'label'      => __( 'Header Color', 'mytheme' ),
-//         'section'    => 'your_section_id',
-//         'settings'   => 'your_setting_id',
-//     ) ) );
-//  }
-
 function devkick_custom_icon_color() {
     include('includes/menu-item-custom-fields.php');
 }
@@ -177,20 +158,3 @@ function devkick_category_color() {
     include('includes/devkick-category-color.php');
 }
 add_action( 'admin_init', 'devkick_category_color' );
-
-function devkick_category_link_color($term) {
-    //chopper la categorie -> chopper son term_id -> _categorie_color
-    $color = get_term_meta( $term, '_category_color', true );
-    echo "
-    <style>
-        .tuto-link a:hover i {
-            color: #".$color.";
-        }
-
-    </style>
-    ";
-
-    if (!is_front_page()) {
-        # code...
-    }
-}
