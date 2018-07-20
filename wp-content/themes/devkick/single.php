@@ -20,7 +20,7 @@
             </div>
         </header>
         <section class="section">
-            <div class="article-container">
+            <div class="article-container content">
                 <?php the_content();?>
             </div>
         </section>

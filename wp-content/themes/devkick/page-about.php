@@ -12,7 +12,7 @@
                 <div class="columns">
                     <section class="section">
                     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                        <article id="post-<?php the_ID();?>" class="box article-box">
+                        <article id="post-<?php the_ID();?>" class="box">
                             <?php the_content();?>
                         </article>
                     <?php endwhile; endif; ?>
