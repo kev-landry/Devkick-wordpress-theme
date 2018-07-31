@@ -40,9 +40,9 @@
                 </a>
             </nav>
             <div class="search-area">
-                <form role="search" action="" method="get" name="s" class="search-area-form">
+                <form role="search" action="" method="" name="s" class="search-area-form">
                     <label for=""></label>
-                    <input type="search" placeholder="Chercher" name="s" class="nav-form-search-input">
+                    <input type="" placeholder="Chercher" name="" class="nav-form-search-input">
                     <button type="submit" class="nav-form-search-submit">
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </button>
